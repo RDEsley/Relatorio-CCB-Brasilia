@@ -32,6 +32,7 @@ type ChurchItem = (typeof churchData.churches)[number];
 type SavedPlace = { id: string; name: string; address: string; latitude: number; longitude: number };
 type Period = "Todos" | "Manhã" | "Tarde" | "Noite";
 type View = "explore" | "favorites" | "archived";
+type DistanceStatus = "idle" | "loading" | "ready" | "error";
 
 const DAYS = [
   { short: "Dom", long: "Domingo" }, { short: "Seg", long: "Segunda" },
@@ -40,21 +41,27 @@ const DAYS = [
   { short: "Sáb", long: "Sábado" },
 ];
 
+const coordinateKey = (latitude: number | null, longitude: number | null) => `${latitude},${longitude}`;
+const coordinateCounts = churchData.churches.reduce((counts, church) => {
+  if (!Number.isFinite(church.latitude) || !Number.isFinite(church.longitude)) return counts;
+  const key = coordinateKey(church.latitude, church.longitude);
+  counts.set(key, (counts.get(key) ?? 0) + 1);
+  return counts;
+}, new Map<string, number>());
+const routeDestinations = churchData.churches
+  .filter((church) => Number.isFinite(church.latitude)
+    && Number.isFinite(church.longitude)
+    && coordinateCounts.get(coordinateKey(church.latitude, church.longitude)) === 1)
+  .map((church) => ({
+    id: church.id,
+    latitude: Number(church.latitude),
+    longitude: Number(church.longitude),
+  }));
+
 const periodFor = (time: string): Exclude<Period, "Todos"> => {
   const hour = Number(time.split(":")[0]);
   return hour < 12 ? "Manhã" : hour < 18 ? "Tarde" : "Noite";
 };
-
-function distanceKm(origin: SavedPlace, church: ChurchItem) {
-  if (!Number.isFinite(church.latitude) || !Number.isFinite(church.longitude)) return null;
-  const radius = 6371;
-  const rad = (value: number) => value * Math.PI / 180;
-  const lat = rad(Number(church.latitude) - origin.latitude);
-  const lng = rad(Number(church.longitude) - origin.longitude);
-  const value = Math.sin(lat / 2) ** 2
-    + Math.cos(rad(origin.latitude)) * Math.cos(rad(Number(church.latitude))) * Math.sin(lng / 2) ** 2;
-  return radius * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
-}
 
 const formatDistance = (value: number) => value < 1
   ? `${Math.round(value * 1000)} m`
@@ -93,6 +100,8 @@ export default function Home() {
   const [placeAddress, setPlaceAddress] = useState("");
   const [visibleCount, setVisibleCount] = useState(12);
   const [selectedChurch, setSelectedChurch] = useState<ChurchItem | null>(null);
+  const [roadDistances, setRoadDistances] = useState<Record<string, number>>({});
+  const [distanceStatus, setDistanceStatus] = useState<DistanceStatus>("idle");
   const favorites = useStoredSet("ccb-favorites");
   const archived = useStoredSet("ccb-archived");
 
@@ -101,7 +110,11 @@ export default function Home() {
       try {
         setPlaces(JSON.parse(localStorage.getItem("ccb-places") || "[]"));
         const selected = localStorage.getItem("ccb-origin");
-        if (selected) setOrigin(JSON.parse(selected));
+        if (selected) {
+          setRoadDistances({});
+          setDistanceStatus("loading");
+          setOrigin(JSON.parse(selected));
+        }
         const filters = JSON.parse(localStorage.getItem("ccb-filters") || "null");
         if (filters?.day) setDay(filters.day);
         if (filters?.period) setPeriod(filters.period);
@@ -112,7 +125,38 @@ export default function Home() {
 
   useEffect(() => { localStorage.setItem("ccb-filters", JSON.stringify({ day, period })); }, [day, period]);
 
+  useEffect(() => {
+    if (!origin) return;
+
+    const controller = new AbortController();
+    fetch("/api/distances", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        origin: { latitude: origin.latitude, longitude: origin.longitude },
+        destinations: routeDestinations,
+      }),
+      signal: controller.signal,
+    })
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Falha ao calcular rotas");
+        return response.json() as Promise<{ distances: Record<string, number> }>;
+      })
+      .then(({ distances }) => {
+        setRoadDistances(distances);
+        setDistanceStatus("ready");
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setDistanceStatus("error");
+      });
+
+    return () => controller.abort();
+  }, [origin]);
+
   const selectOrigin = (place: SavedPlace) => {
+    setRoadDistances({});
+    setDistanceStatus("loading");
     setOrigin(place);
     localStorage.setItem("ccb-origin", JSON.stringify(place));
     setLocationOpen(false);
@@ -138,7 +182,15 @@ export default function Home() {
     setLocating(true);
     setLocationError("");
     try {
-      const response = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=br&q=${encodeURIComponent(`${placeAddress}, DF, Brasil`)}`);
+      const search = new URLSearchParams({
+        format: "jsonv2",
+        limit: "1",
+        countrycodes: "br",
+        bounded: "1",
+        viewbox: "-49.1,-15.2,-47.1,-16.5",
+        q: `${placeAddress}, Brasil`,
+      });
+      const response = await fetch(`https://nominatim.openstreetmap.org/search?${search}`);
       const [result] = await response.json();
       if (!result) throw new Error();
       const place = { id: crypto.randomUUID(), name: placeName.trim(), address: placeAddress.trim(), latitude: Number(result.lat), longitude: Number(result.lon) };
@@ -160,7 +212,7 @@ export default function Home() {
     .map((church) => ({
       church,
       matching: church.services.filter((service) => service.day === day && (period === "Todos" || periodFor(service.time) === period)),
-      distance: origin ? distanceKm(origin, church) : null,
+      distance: origin && distanceStatus === "ready" ? roadDistances[church.id] ?? null : null,
     }))
     .filter(({ church, matching }) => {
       const words = `${church.name} ${church.neighborhood} ${church.city} ${church.address}`.toLocaleLowerCase("pt-BR");
@@ -168,7 +220,7 @@ export default function Home() {
       return matching.length && inView && words.includes(query.toLocaleLowerCase("pt-BR").trim());
     })
     .sort((a, b) => (a.distance ?? Infinity) - (b.distance ?? Infinity) || a.church.name.localeCompare(b.church.name, "pt-BR")),
-  [day, period, origin, query, view, favorites.items, archived.items]);
+  [day, period, origin, query, view, favorites.items, archived.items, roadDistances, distanceStatus]);
 
   return <main className="app-shell">
     <header className="topbar">
@@ -211,7 +263,7 @@ export default function Home() {
 
     <section className="results-section">
       <div className="results-toolbar">
-        <div><h2>{results.length} de {churchData.churches.length} casas</h2><p>{DAYS.find((item) => item.short === day)?.long} · {period === "Todos" ? "todos os períodos" : period}{origin && " · por distância"}</p></div>
+        <div><h2>{results.length} de {churchData.churches.length} casas</h2><p>{DAYS.find((item) => item.short === day)?.long} · {period === "Todos" ? "todos os períodos" : period}{distanceStatus === "loading" ? " · calculando rotas" : distanceStatus === "ready" ? " · por distância de carro" : distanceStatus === "error" ? " · distâncias indisponíveis" : ""}</p></div>
         {view === "archived" && archived.items.size > 0 && <button className="restore-all" onClick={archived.clear}><ArchiveRestore size={16} /> Desarquivar todas</button>}
       </div>
 
@@ -219,7 +271,7 @@ export default function Home() {
         <div className="church-grid">
           {results.slice(0, visibleCount).map(({ church, matching, distance }, index) => <article className="church-card" key={church.id} tabIndex={0} onClick={() => setSelectedChurch(church)} onKeyDown={(event) => { if (event.target === event.currentTarget && (event.key === "Enter" || event.key === " ")) setSelectedChurch(church); }}>
             <div className="card-top">
-              <div className="distance-badge"><Navigation size={14} fill="currentColor" />{distance !== null ? formatDistance(distance) : origin ? "Distância indisponível" : "Selecione uma localização"}</div>
+              <div className="distance-badge"><Navigation size={14} fill="currentColor" />{distance !== null ? formatDistance(distance) : distanceStatus === "loading" ? "Calculando rota" : origin ? "Distância indisponível" : "Selecione uma localização"}</div>
               <div className="card-tools" onClick={(event) => event.stopPropagation()}>
                 <button className={favorites.items.has(church.id) ? "favorited" : ""} onClick={() => favorites.update(church.id)} aria-label="Favoritar"><Star size={19} fill={favorites.items.has(church.id) ? "currentColor" : "none"} /></button>
                 <button onClick={() => archived.update(church.id)} aria-label={archived.items.has(church.id) ? "Desarquivar" : "Arquivar"}>{archived.items.has(church.id) ? <ArchiveRestore size={19} /> : <Archive size={19} />}</button>
@@ -252,7 +304,7 @@ export default function Home() {
         <button className="current-location-card" onClick={useCurrentLocation} disabled={locating}><Crosshair size={20} /><span><b>Usar localização atual</b><small>Localização do aparelho</small></span>{locating ? <LoaderCircle className="spin" /> : <ChevronDown size={17} />}</button>
         {places.length > 0 && <div className="saved-places"><label>Salvos</label>{places.map((place) => <div className={origin?.id === place.id ? "saved-place active" : "saved-place"} key={place.id}><button onClick={() => selectOrigin(place)}><MapPinned size={17} /><span><b>{place.name}</b><small>{place.address}</small></span>{origin?.id === place.id && <Check size={16} />}</button><button onClick={() => removePlace(place.id)} aria-label={`Excluir ${place.name}`}><Trash2 size={16} /></button></div>)}</div>}
         <div className="divider"><span>Salvar endereço</span></div>
-        <form onSubmit={savePlace} className="place-form"><label>Nome<input value={placeName} onChange={(event) => setPlaceName(event.target.value)} placeholder="Casa" required /></label><label>Endereço<input value={placeAddress} onChange={(event) => setPlaceAddress(event.target.value)} placeholder="Rua, bairro e cidade" required /></label>{locationError && <p className="form-error"><Info size={15} /> {locationError}</p>}<button type="submit" disabled={locating}><Plus size={17} /> Salvar localização</button></form>
+        <form onSubmit={savePlace} className="place-form"><label>Nome<input value={placeName} onChange={(event) => setPlaceName(event.target.value)} placeholder="Casa" required /></label><label>Endereço<input value={placeAddress} onChange={(event) => setPlaceAddress(event.target.value)} placeholder="Rua, bairro, cidade e UF" required /></label>{locationError && <p className="form-error"><Info size={15} /> {locationError}</p>}<button type="submit" disabled={locating}><Plus size={17} /> Salvar localização</button></form>
         <p className="privacy-note"><ShieldCheck size={14} /> Salvo somente neste aparelho.</p>
       </section>
     </div>}

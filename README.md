@@ -34,7 +34,7 @@ O projeto funciona sem cadastro e sem banco de dados. A agenda pública fica ver
 | Área | Recursos disponíveis |
 | --- | --- |
 | 📍 **Localização** | GPS do aparelho, cadastro de endereços pessoais e seleção persistente do ponto de saída |
-| 🧭 **Distância** | Cálculo local pela fórmula de Haversine e ordenação da casa mais próxima para a mais distante |
+| 🧭 **Distância** | Trajeto rodoviário calculado a partir da origem e ordenação da casa mais próxima para a mais distante |
 | 📅 **Agenda** | Filtro por dia da semana e seleção automática do dia atual |
 | 🌅 **Período** | Manhã, tarde, noite ou todos, com identificação automática pelo horário |
 | ⛪ **Serviços** | Culto oficial e Reunião de Jovens e Menores apresentados diretamente no card |
@@ -52,10 +52,12 @@ Um banco de dados não é necessário para este escopo. Os dados públicos mudam
 ```mermaid
 flowchart LR
   A[Agenda versionada em JSON] --> B[Next.js]
-  B --> C[Filtros e distância no navegador]
-  C --> D[Google Maps / Waze]
-  E[LocalStorage privado] --> C
-  E --> F[Favoritos, arquivados e locais]
+  B --> C[Filtros no navegador]
+  C --> D[API interna de distâncias]
+  D --> E[Motor de rotas OSRM]
+  C --> F[Google Maps / Waze]
+  G[LocalStorage privado] --> C
+  G --> H[Favoritos, arquivados e locais]
 ```
 
 ## 🗺️ Dados e manutenção
@@ -99,6 +101,7 @@ Para adicionar ou corrigir uma casa manualmente, mantenha o formato existente:
 - **Lucide React** para iconografia acessível.
 - **LocalStorage** para preferências privadas.
 - **OpenStreetMap Nominatim** para localizar endereços pessoais.
+- **OSRM** para calcular distâncias rodoviárias sem chave de API.
 - **Vercel** como destino de produção.
 
 ## 🚀 Instalação local
@@ -133,7 +136,7 @@ O [`vercel.json`](vercel.json) já configura a região de São Paulo. Previews d
 
 ## 🔐 Privacidade e limites
 
-- Nenhuma localização pessoal é enviada ao projeto ou armazenada em servidor.
+- A origem é enviada temporariamente ao endpoint de rotas e ao OSRM somente para calcular as distâncias; o servidor não a armazena.
 - Ao cadastrar um endereço, a busca de coordenadas usa o serviço público Nominatim.
 - Limpar os dados do navegador remove favoritos, arquivados e locais salvos.
 - Agendas podem mudar por reformas, eventos ou decisões locais; confirme alterações no relatório oficial.
