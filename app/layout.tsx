@@ -32,9 +32,24 @@ export const metadata: Metadata = {
     description: "Mais perto. Mais simples. Direto ao caminho.",
     locale: "pt_BR",
     type: "website",
-    images: [{ url: "/favicons/favicon-512x512.png", width: 512, height: 512, alt: "Casas de Oração — Brasília e Águas Lindas" }],
+    url: "/",
+    siteName: "Casas de Oração",
+    images: [
+      {
+        url: "/og-ccb-brasilia.png",
+        width: 1200,
+        height: 630,
+        type: "image/png",
+        alt: "Casas de Oração — Brasília e Águas Lindas",
+      },
+    ],
   },
-  twitter: { card: "summary", images: ["/favicons/favicon-512x512.png"] },
+  twitter: {
+    card: "summary_large_image",
+    title: "Casas de Oração — Brasília & Águas Lindas",
+    description: "Mais perto. Mais simples. Direto ao caminho.",
+    images: ["/og-ccb-brasilia.png"],
+  },
 };
 
 export default function RootLayout({
