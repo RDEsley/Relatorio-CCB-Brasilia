@@ -73,6 +73,24 @@ const formatAccuracy = (value: number) => value < 1000
   ? `${Math.round(value)} m`
   : `${(value / 1000).toFixed(1).replace(".", ",")} km`;
 
+const normalizeSearch = (value: string) => value
+  .normalize("NFD")
+  .replace(/[\u0300-\u036f]/g, "")
+  .toLocaleLowerCase("pt-BR")
+  .trim();
+
+const googleMapsRouteUrl = (church: ChurchItem, origin: SavedPlace | null) => {
+  if (!origin) return church.googleMapsUrl;
+
+  const search = new URLSearchParams({
+    api: "1",
+    origin: `${origin.latitude},${origin.longitude}`,
+    destination: church.routeQuery,
+    travelmode: "driving",
+  });
+  return `https://www.google.com/maps/dir/?${search}`;
+};
+
 const geolocationErrorMessage = (error: GeolocationPositionError) => {
   if (error.code === error.PERMISSION_DENIED) return "Permissão de localização bloqueada. Libere o acesso nas configurações do navegador.";
   if (error.code === error.TIMEOUT) return "A localização demorou para responder. Tente novamente em um local com melhor sinal.";
@@ -261,9 +279,10 @@ export default function Home() {
       distance: origin && distanceStatus === "ready" ? roadDistances[church.id] ?? null : null,
     }))
     .filter(({ church, matching }) => {
-      const words = `${church.name} ${church.neighborhood} ${church.city} ${church.address}`.toLocaleLowerCase("pt-BR");
+      const words = normalizeSearch(`${church.name} ${church.neighborhood} ${church.city} ${church.address}`);
+      const searchTerms = normalizeSearch(query).split(/\s+/).filter(Boolean);
       const inView = view === "favorites" ? favorites.items.has(church.id) : view === "archived" ? archived.items.has(church.id) : !archived.items.has(church.id);
-      return matching.length && inView && words.includes(query.toLocaleLowerCase("pt-BR").trim());
+      return matching.length && inView && searchTerms.every((term) => words.includes(term));
     })
     .sort((a, b) => (a.distance ?? Infinity) - (b.distance ?? Infinity) || a.church.name.localeCompare(b.church.name, "pt-BR")),
   [day, period, origin, query, view, favorites.items, archived.items, roadDistances, distanceStatus]);
@@ -333,7 +352,7 @@ export default function Home() {
               </div>)}
               </div>
             <div className="route-actions" onClick={(event) => event.stopPropagation()}>
-              <a className="maps-button" href={church.googleMapsUrl} target="_blank" rel="noreferrer"><MapPin size={18} /> Google Maps <ArrowUpRight size={15} /></a>
+              <a className="maps-button" href={googleMapsRouteUrl(church, origin)} target="_blank" rel="noreferrer"><MapPin size={18} /> Google Maps <ArrowUpRight size={15} /></a>
               <a className="waze-button" href={church.wazeUrl} target="_blank" rel="noreferrer"><Navigation size={18} fill="currentColor" /> Waze <ArrowUpRight size={15} /></a>
             </div>
           </article>)}
@@ -380,7 +399,7 @@ export default function Home() {
         </div>
 
         <div className="route-actions detail-routes">
-          <a className="maps-button" href={selectedChurch.googleMapsUrl} target="_blank" rel="noreferrer"><MapPin size={18} /> Google Maps <ArrowUpRight size={15} /></a>
+          <a className="maps-button" href={googleMapsRouteUrl(selectedChurch, origin)} target="_blank" rel="noreferrer"><MapPin size={18} /> Google Maps <ArrowUpRight size={15} /></a>
           <a className="waze-button" href={selectedChurch.wazeUrl} target="_blank" rel="noreferrer"><Navigation size={18} fill="currentColor" /> Waze <ArrowUpRight size={15} /></a>
         </div>
         <a className="official-source" href={selectedChurch.sourceUrl} target="_blank" rel="noreferrer"><ShieldCheck size={14} /> Dados conferidos no relatório oficial da CCB</a>
