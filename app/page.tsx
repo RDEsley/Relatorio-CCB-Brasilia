@@ -211,7 +211,7 @@ export default function Home() {
 
     <section className="results-section">
       <div className="results-toolbar">
-        <div><h2>{results.length} {results.length === 1 ? "resultado" : "resultados"}</h2>{origin && <p>ordenados por distância</p>}</div>
+        <div><h2>{results.length} de {churchData.churches.length} casas</h2><p>{DAYS.find((item) => item.short === day)?.long} · {period === "Todos" ? "todos os períodos" : period}{origin && " · por distância"}</p></div>
         {view === "archived" && archived.items.size > 0 && <button className="restore-all" onClick={archived.clear}><ArchiveRestore size={16} /> Desarquivar todas</button>}
       </div>
 
