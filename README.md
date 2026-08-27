@@ -33,7 +33,7 @@ O projeto funciona sem cadastro e sem banco de dados. A agenda pública fica ver
 
 | Área | Recursos disponíveis |
 | --- | --- |
-| 📍 **Localização** | GPS do aparelho, cadastro de endereços pessoais e seleção persistente do ponto de saída |
+| 📍 **Localização** | GPS atualizado a cada sessão, validação de precisão e endereços pessoais persistentes |
 | 🧭 **Distância** | Trajeto rodoviário calculado a partir da origem e ordenação da casa mais próxima para a mais distante |
 | 📅 **Agenda** | Filtro por dia da semana e seleção automática do dia atual |
 | 🌅 **Período** | Manhã, tarde, noite ou todos, com identificação automática pelo horário |
@@ -137,6 +137,7 @@ O [`vercel.json`](vercel.json) já configura a região de São Paulo. Previews d
 ## 🔐 Privacidade e limites
 
 - A origem é enviada temporariamente ao endpoint de rotas e ao OSRM somente para calcular as distâncias; o servidor não a armazena.
+- A posição atual não fica salva entre visitas; somente endereços cadastrados manualmente permanecem no navegador.
 - Ao cadastrar um endereço, a busca de coordenadas usa o serviço público Nominatim.
 - Limpar os dados do navegador remove favoritos, arquivados e locais salvos.
 - Agendas podem mudar por reformas, eventos ou decisões locais; confirme alterações no relatório oficial.

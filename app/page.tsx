@@ -29,10 +29,12 @@ import churchData from "../data/churches.json";
 
 type Service = { day: string; time: string; type: string };
 type ChurchItem = (typeof churchData.churches)[number];
-type SavedPlace = { id: string; name: string; address: string; latitude: number; longitude: number };
+type SavedPlace = { id: string; name: string; address: string; latitude: number; longitude: number; accuracy?: number };
 type Period = "Todos" | "Manhã" | "Tarde" | "Noite";
 type View = "explore" | "favorites" | "archived";
 type DistanceStatus = "idle" | "loading" | "ready" | "error";
+
+const MAX_LOCATION_ACCURACY_METERS = 500;
 
 const DAYS = [
   { short: "Dom", long: "Domingo" }, { short: "Seg", long: "Segunda" },
@@ -66,6 +68,16 @@ const periodFor = (time: string): Exclude<Period, "Todos"> => {
 const formatDistance = (value: number) => value < 1
   ? `${Math.round(value * 1000)} m`
   : `${value.toFixed(value < 10 ? 1 : 0).replace(".", ",")} km`;
+
+const formatAccuracy = (value: number) => value < 1000
+  ? `${Math.round(value)} m`
+  : `${(value / 1000).toFixed(1).replace(".", ",")} km`;
+
+const geolocationErrorMessage = (error: GeolocationPositionError) => {
+  if (error.code === error.PERMISSION_DENIED) return "Permissão de localização bloqueada. Libere o acesso nas configurações do navegador.";
+  if (error.code === error.TIMEOUT) return "A localização demorou para responder. Tente novamente em um local com melhor sinal.";
+  return "O aparelho não conseguiu determinar sua localização. Ative a localização precisa ou salve seu endereço.";
+};
 
 function useStoredSet(key: string) {
   const [items, setItems] = useState<Set<string>>(new Set());
@@ -111,9 +123,14 @@ export default function Home() {
         setPlaces(JSON.parse(localStorage.getItem("ccb-places") || "[]"));
         const selected = localStorage.getItem("ccb-origin");
         if (selected) {
-          setRoadDistances({});
-          setDistanceStatus("loading");
-          setOrigin(JSON.parse(selected));
+          const savedOrigin = JSON.parse(selected) as SavedPlace;
+          if (savedOrigin.id === "current") {
+            localStorage.removeItem("ccb-origin");
+          } else {
+            setRoadDistances({});
+            setDistanceStatus("loading");
+            setOrigin(savedOrigin);
+          }
         }
         const filters = JSON.parse(localStorage.getItem("ccb-filters") || "null");
         if (filters?.day) setDay(filters.day);
@@ -154,11 +171,12 @@ export default function Home() {
     return () => controller.abort();
   }, [origin]);
 
-  const selectOrigin = (place: SavedPlace) => {
+  const selectOrigin = (place: SavedPlace, persist = true) => {
     setRoadDistances({});
     setDistanceStatus("loading");
     setOrigin(place);
-    localStorage.setItem("ccb-origin", JSON.stringify(place));
+    if (persist) localStorage.setItem("ccb-origin", JSON.stringify(place));
+    else localStorage.removeItem("ccb-origin");
     setLocationOpen(false);
     setLocationError("");
   };
@@ -167,13 +185,41 @@ export default function Home() {
     setLocationError("");
     if (!navigator.geolocation) return setLocationError("Localização indisponível neste navegador.");
     setLocating(true);
-    navigator.geolocation.getCurrentPosition(
-      ({ coords }) => {
-        selectOrigin({ id: "current", name: "Localização atual", address: "Localização do aparelho", latitude: coords.latitude, longitude: coords.longitude });
+
+    const handlePosition = ({ coords }: GeolocationPosition) => {
+      if (coords.accuracy > MAX_LOCATION_ACCURACY_METERS) {
+        setLocationError(`A posição recebida está imprecisa (±${formatAccuracy(coords.accuracy)}). Ative a localização precisa ou salve seu endereço.`);
         setLocating(false);
+        return;
+      }
+
+      selectOrigin({
+        id: "current",
+        name: "Localização atual",
+        address: `Precisão aproximada de ${formatAccuracy(coords.accuracy)}`,
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        accuracy: coords.accuracy,
+      }, false);
+      setLocating(false);
+    };
+
+    const handleFinalError = (error: GeolocationPositionError) => {
+      setLocationError(geolocationErrorMessage(error));
+      setLocating(false);
+    };
+
+    navigator.geolocation.getCurrentPosition(
+      handlePosition,
+      (error) => {
+        if (error.code === error.PERMISSION_DENIED) return handleFinalError(error);
+        navigator.geolocation.getCurrentPosition(handlePosition, handleFinalError, {
+          enableHighAccuracy: false,
+          maximumAge: 60_000,
+          timeout: 8_000,
+        });
       },
-      () => { setLocationError("Não foi possível acessar sua localização."); setLocating(false); },
-      { enableHighAccuracy: true, timeout: 12000 },
+      { enableHighAccuracy: true, maximumAge: 0, timeout: 12_000 },
     );
   };
 
@@ -193,7 +239,7 @@ export default function Home() {
       const response = await fetch(`https://nominatim.openstreetmap.org/search?${search}`);
       const [result] = await response.json();
       if (!result) throw new Error();
-      const place = { id: crypto.randomUUID(), name: placeName.trim(), address: placeAddress.trim(), latitude: Number(result.lat), longitude: Number(result.lon) };
+      const place = { id: crypto.randomUUID(), name: placeName.trim(), address: result.display_name || placeAddress.trim(), latitude: Number(result.lat), longitude: Number(result.lon) };
       const next = [...places, place];
       setPlaces(next);
       localStorage.setItem("ccb-places", JSON.stringify(next));
