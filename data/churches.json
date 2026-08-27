@@ -1244,8 +1244,8 @@
           "type": "Culto oficial"
         }
       ],
-      "latitude": null,
-      "longitude": null,
+      "latitude": -15.6852244,
+      "longitude": -48.1964662,
       "sourceUrl": "https://congregacaocristanobrasil.org.br/relatorio",
       "ministry": [
         {
@@ -1281,7 +1281,7 @@
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%20-%20Central%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%20-%20Central%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil&navigate=yes",
       "officialVerification": "2026-08-27",
-      "coordinateStatus": "unavailable"
+      "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0141",
