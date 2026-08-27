@@ -1,5 +1,32 @@
 {
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-27",
+  "officialTotal": 137,
+  "cityCounts": {
+    "Águas Claras": 2,
+    "Águas Lindas de Goiás": 16,
+    "Brasília": 4,
+    "Brazlândia": 7,
+    "Candangolândia": 1,
+    "Ceilândia Norte": 10,
+    "Ceilândia Sul": 4,
+    "Cidade Estrutural": 4,
+    "Cruzeiro Velho": 1,
+    "Gama": 8,
+    "Guará": 3,
+    "Itapoã": 4,
+    "Lago Norte": 1,
+    "Núcleo Bandeirante": 2,
+    "Paranoá": 5,
+    "Planaltina": 12,
+    "Recanto Das Emas": 5,
+    "Riacho Fundo": 6,
+    "Samambaia": 8,
+    "Santa Maria": 7,
+    "São Sebastião": 10,
+    "Sobradinho": 12,
+    "Taguatinga": 4,
+    "Vicente Pires": 1
+  },
   "churches": [
     {
       "id": "BR-24-0027",
@@ -61,13 +88,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Areal, QS 8 - Conjunto 420-B - Lote 1, Águas Claras, DF, 71973-725, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Areal%2C%20QS%208%20-%20Conjunto%20420-B%20-%20Lote%201%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071973-725%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Areal%2C%20QS%208%20-%20Conjunto%20420-B%20-%20Lote%201%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071973-725%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
       "id": "BR-24-0108",
-      "name": "Veredão - Setor Habitacional Arniqueira",
-      "neighborhood": "Veredão - Setor Habitacional Arniqueira",
+      "name": "Veredão - Setor Habitacional Arniqueira - Central",
+      "neighborhood": "Veredão - Setor Habitacional Arniqueira - Central",
       "city": "Águas Claras",
       "state": "DF",
       "address": "Chácara 56 - Lote 72, CEP 71993-100",
@@ -107,10 +134,10 @@
       ],
       "phones": [],
       "officialId": 26627,
-      "routeQuery": "Congregação Cristã no Brasil - Veredão - Setor Habitacional Arniqueira, Chácara 56 - Lote 72, Águas Claras, DF, 71993-100, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vered%C3%A3o%20-%20Setor%20Habitacional%20Arniqueira%2C%20Ch%C3%A1cara%2056%20-%20Lote%2072%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071993-100%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vered%C3%A3o%20-%20Setor%20Habitacional%20Arniqueira%2C%20Ch%C3%A1cara%2056%20-%20Lote%2072%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071993-100%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Veredão - Setor Habitacional Arniqueira - Central, Chácara 56 - Lote 72, Águas Claras, DF, 71993-100, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vered%C3%A3o%20-%20Setor%20Habitacional%20Arniqueira%20-%20Central%2C%20Ch%C3%A1cara%2056%20-%20Lote%2072%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071993-100%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vered%C3%A3o%20-%20Setor%20Habitacional%20Arniqueira%20-%20Central%2C%20Ch%C3%A1cara%2056%20-%20Lote%2072%2C%20%C3%81guas%20Claras%2C%20DF%2C%2071993-100%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -164,7 +191,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Camping Clube, Quadra 47 - Lote 18, Águas Lindas de Goiás, GO, 72914-093, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Camping%20Clube%2C%20Quadra%2047%20-%20Lote%2018%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072914-093%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Camping%20Clube%2C%20Quadra%2047%20-%20Lote%2018%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072914-093%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -213,7 +240,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Bela Vista da Barragem, Quadra 7 - Lote 5, Águas Lindas de Goiás, GO, 72911-551, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Bela%20Vista%20da%20Barragem%2C%20Quadra%207%20-%20Lote%205%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072911-551%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Bela%20Vista%20da%20Barragem%2C%20Quadra%207%20-%20Lote%205%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072911-551%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -256,7 +283,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Embaixador, Quadra 01 - Lote 05, Águas Lindas de Goiás, GO, 72917-144, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Embaixador%2C%20Quadra%2001%20-%20Lote%2005%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072917-144%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Embaixador%2C%20Quadra%2001%20-%20Lote%2005%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072917-144%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -300,7 +327,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Solar da Barragem, Quadra 9 - Lote 13, Águas Lindas de Goiás, GO, 72921-149, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Solar%20da%20Barragem%2C%20Quadra%209%20-%20Lote%2013%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072921-149%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Solar%20da%20Barragem%2C%20Quadra%209%20-%20Lote%2013%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072921-149%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -354,7 +381,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim América IV, Quadra 4 - Lote 10, Águas Lindas de Goiás, GO, 72922-473, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Am%C3%A9rica%20IV%2C%20Quadra%204%20-%20Lote%2010%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072922-473%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Am%C3%A9rica%20IV%2C%20Quadra%204%20-%20Lote%2010%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072922-473%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -414,7 +441,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Brasilia II, Quadra 26 - Lotes 12 e 13, Águas Lindas de Goiás, GO, 72917-678, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Brasilia%20II%2C%20Quadra%2026%20-%20Lotes%2012%20e%2013%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072917-678%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Brasilia%20II%2C%20Quadra%2026%20-%20Lotes%2012%20e%2013%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072917-678%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -481,7 +508,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim da Barragem IV, Quadra 38 - Lotes 25 e 26, Águas Lindas de Goiás, GO, 72920-304, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20da%20Barragem%20IV%2C%20Quadra%2038%20-%20Lotes%2025%20e%2026%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072920-304%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20da%20Barragem%20IV%2C%20Quadra%2038%20-%20Lotes%2025%20e%2026%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072920-304%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -535,7 +562,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim da Barragem VI, Quadra 43 - Lote 9, Águas Lindas de Goiás, GO, 72921-034, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20da%20Barragem%20VI%2C%20Quadra%2043%20-%20Lote%209%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072921-034%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20da%20Barragem%20VI%2C%20Quadra%2043%20-%20Lote%209%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072921-034%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -590,7 +617,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Guaíra, Quadra 20 - Lote 7 e 8, Águas Lindas de Goiás, GO, 72912-603, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Gua%C3%ADra%2C%20Quadra%2020%20-%20Lote%207%20e%208%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072912-603%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Gua%C3%ADra%2C%20Quadra%2020%20-%20Lote%207%20e%208%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072912-603%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -628,7 +655,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Planalto, Quadra 1 - Lote 10, Águas Lindas de Goiás, GO, 72926-323, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Planalto%2C%20Quadra%201%20-%20Lote%2010%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072926-323%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Planalto%2C%20Quadra%201%20-%20Lote%2010%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072926-323%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -677,7 +704,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Santa Lúcia, Quadra 57 - Lote 19, Águas Lindas de Goiás, GO, 72927-565, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Santa%20L%C3%BAcia%2C%20Quadra%2057%20-%20Lote%2019%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072927-565%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Santa%20L%C3%BAcia%2C%20Quadra%2057%20-%20Lote%2019%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072927-565%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -743,7 +770,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Mansões Village, Quadra C-34 - Lotes 12 e 19, Águas Lindas de Goiás, GO, 72916-155, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Mans%C3%B5es%20Village%2C%20Quadra%20C-34%20-%20Lotes%2012%20e%2019%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072916-155%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Mans%C3%B5es%20Village%2C%20Quadra%20C-34%20-%20Lotes%2012%20e%2019%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072916-155%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -776,7 +803,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Royal Parque, Quadra 5C - Lote 20 A, Águas Lindas de Goiás, GO, 72927-263, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Royal%20Parque%2C%20Quadra%205C%20-%20Lote%2020%20A%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072927-263%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Royal%20Parque%2C%20Quadra%205C%20-%20Lote%2020%20A%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072927-263%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -842,13 +869,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor 10, Quadra 104 - Conjunto A - Lote 29, Águas Lindas de Goiás, GO, 72925-135, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%2010%2C%20Quadra%20104%20-%20Conjunto%20A%20-%20Lote%2029%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072925-135%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%2010%2C%20Quadra%20104%20-%20Conjunto%20A%20-%20Lote%2029%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072925-135%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-07-0612",
-      "name": "Setor 2",
-      "neighborhood": "Setor 2",
+      "name": "Setor 2 - Central",
+      "neighborhood": "Setor 2 - Central",
       "city": "Águas Lindas de Goiás",
       "state": "GO",
       "address": "Quadra 38 - Conjunto B - Lote 12, CEP 72910-127",
@@ -909,10 +936,10 @@
         "+55 (61) 3618-0105"
       ],
       "officialId": 3324,
-      "routeQuery": "Congregação Cristã no Brasil - Setor 2, Quadra 38 - Conjunto B - Lote 12, Águas Lindas de Goiás, GO, 72910-127, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%202%2C%20Quadra%2038%20-%20Conjunto%20B%20-%20Lote%2012%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072910-127%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%202%2C%20Quadra%2038%20-%20Conjunto%20B%20-%20Lote%2012%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072910-127%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Setor 2 - Central, Quadra 38 - Conjunto B - Lote 12, Águas Lindas de Goiás, GO, 72910-127, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%202%20-%20Central%2C%20Quadra%2038%20-%20Conjunto%20B%20-%20Lote%2012%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072910-127%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%202%20-%20Central%2C%20Quadra%2038%20-%20Conjunto%20B%20-%20Lote%2012%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072910-127%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -967,13 +994,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor 6, Quadra 5 - Conjunto B - Lote 26, Águas Lindas de Goiás, GO, 72914-499, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%206%2C%20Quadra%205%20-%20Conjunto%20B%20-%20Lote%2026%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072914-499%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%206%2C%20Quadra%205%20-%20Conjunto%20B%20-%20Lote%2026%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%2C%20GO%2C%2072914-499%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0092",
-      "name": "Asa Norte",
-      "neighborhood": "Asa Norte",
+      "name": "Asa Norte - Central",
+      "neighborhood": "Asa Norte - Central",
       "city": "Brasília",
       "state": "DF",
       "address": "SCLRN 715 - Bloco B - Lote 2, CEP 70770-512",
@@ -1030,10 +1057,10 @@
       ],
       "phones": [],
       "officialId": 17171,
-      "routeQuery": "Congregação Cristã no Brasil - Asa Norte, SCLRN 715 - Bloco B - Lote 2, Brasília, DF, 70770-512, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Norte%2C%20SCLRN%20715%20-%20Bloco%20B%20-%20Lote%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070770-512%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Norte%2C%20SCLRN%20715%20-%20Bloco%20B%20-%20Lote%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070770-512%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Asa Norte - Central, SCLRN 715 - Bloco B - Lote 2, Brasília, DF, 70770-512, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Norte%20-%20Central%2C%20SCLRN%20715%20-%20Bloco%20B%20-%20Lote%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070770-512%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Norte%20-%20Central%2C%20SCLRN%20715%20-%20Bloco%20B%20-%20Lote%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070770-512%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1087,7 +1114,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Granja do Torto, Rua 5 - Lote 17, Brasília, DF, 70636-340, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Granja%20do%20Torto%2C%20Rua%205%20-%20Lote%2017%2C%20Bras%C3%ADlia%2C%20DF%2C%2070636-340%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Granja%20do%20Torto%2C%20Rua%205%20-%20Lote%2017%2C%20Bras%C3%ADlia%2C%20DF%2C%2070636-340%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1136,7 +1163,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Botânico, Quadra São Bartolomeu - QSB 01 - Lote 18, Brasília, DF, 71680-351, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Bot%C3%A2nico%2C%20Quadra%20S%C3%A3o%20Bartolomeu%20-%20QSB%2001%20-%20Lote%2018%2C%20Bras%C3%ADlia%2C%20DF%2C%2071680-351%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Bot%C3%A2nico%2C%20Quadra%20S%C3%A3o%20Bartolomeu%20-%20QSB%2001%20-%20Lote%2018%2C%20Bras%C3%ADlia%2C%20DF%2C%2071680-351%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1185,13 +1212,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila Planalto, Rua das Flores - Casa 2, Brasília, DF, 70802-080, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Planalto%2C%20Rua%20das%20Flores%20-%20Casa%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070802-080%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Planalto%2C%20Rua%20das%20Flores%20-%20Casa%202%2C%20Bras%C3%ADlia%2C%20DF%2C%2070802-080%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0005",
-      "name": "Área Especial 2",
-      "neighborhood": "Área Especial 2",
+      "name": "Área Especial 2 - Central",
+      "neighborhood": "Área Especial 2 - Central",
       "city": "Brazlândia",
       "state": "DF",
       "address": "Lote A - Setor Norte, CEP 72705-620",
@@ -1250,10 +1277,10 @@
         "+55 (61) 99350-9400"
       ],
       "officialId": 17089,
-      "routeQuery": "Congregação Cristã no Brasil - Área Especial 2, Lote A - Setor Norte, Brazlândia, DF, 72705-620, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Área Especial 2 - Central, Lote A - Setor Norte, Brazlândia, DF, 72705-620, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%20-%20Central%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%202%20-%20Central%2C%20Lote%20A%20-%20Setor%20Norte%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072705-620%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -1296,7 +1323,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Incra 7 - Assentamento Graziela Alves, Rodovia BR-080 - Km 03, Brazlândia, DF, 72773-010, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Incra%207%20-%20Assentamento%20Graziela%20Alves%2C%20Rodovia%20BR-080%20-%20Km%2003%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072773-010%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Incra%207%20-%20Assentamento%20Graziela%20Alves%2C%20Rodovia%20BR-080%20-%20Km%2003%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072773-010%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1345,7 +1372,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Incra 8, Quadra 1 - Lote 4, Brazlândia, DF, 72760-010, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Incra%208%2C%20Quadra%201%20-%20Lote%204%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072760-010%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Incra%208%2C%20Quadra%201%20-%20Lote%204%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072760-010%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -1388,7 +1415,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Núcleo Rural Curralinho, Rodovia DF-180 - Km 2/3 - Chácara 3, Brazlândia, DF, 72799-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Curralinho%2C%20Rodovia%20DF-180%20-%20Km%202%2F3%20-%20Ch%C3%A1cara%203%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072799-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Curralinho%2C%20Rodovia%20DF-180%20-%20Km%202%2F3%20-%20Ch%C3%A1cara%203%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072799-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1426,7 +1453,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Radiobrás, Assentamento Betinho - Conjunto C, Brazlândia, DF, 72710-991, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Radiobr%C3%A1s%2C%20Assentamento%20Betinho%20-%20Conjunto%20C%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072710-991%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Radiobr%C3%A1s%2C%20Assentamento%20Betinho%20-%20Conjunto%20C%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072710-991%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1470,7 +1497,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Veredas, Quadra 2 - Lote 4, Brazlândia, DF, 72725-200, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Veredas%2C%20Quadra%202%20-%20Lote%204%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072725-200%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Veredas%2C%20Quadra%202%20-%20Lote%204%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072725-200%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1519,13 +1546,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila São José, Quadra 56 - Conjunto G - Lote 803, Brazlândia, DF, 72755-133, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20S%C3%A3o%20Jos%C3%A9%2C%20Quadra%2056%20-%20Conjunto%20G%20-%20Lote%20803%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072755-133%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20S%C3%A3o%20Jos%C3%A9%2C%20Quadra%2056%20-%20Conjunto%20G%20-%20Lote%20803%2C%20Brazl%C3%A2ndia%2C%20DF%2C%2072755-133%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0023",
-      "name": "Candangolândia",
-      "neighborhood": "Candangolândia",
+      "name": "Candangolândia - Central",
+      "neighborhood": "Candangolândia - Central",
       "city": "Candangolândia",
       "state": "DF",
       "address": "Praça do Bosque, 7, CEP 71727-255",
@@ -1576,10 +1603,10 @@
       ],
       "phones": [],
       "officialId": 17105,
-      "routeQuery": "Congregação Cristã no Brasil - Candangolândia, Praça do Bosque, 7, Candangolândia, DF, 71727-255, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Candangol%C3%A2ndia%2C%20Pra%C3%A7a%20do%20Bosque%2C%207%2C%20Candangol%C3%A2ndia%2C%20DF%2C%2071727-255%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Candangol%C3%A2ndia%2C%20Pra%C3%A7a%20do%20Bosque%2C%207%2C%20Candangol%C3%A2ndia%2C%20DF%2C%2071727-255%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Candangolândia - Central, Praça do Bosque, 7, Candangolândia, DF, 71727-255, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Candangol%C3%A2ndia%20-%20Central%2C%20Pra%C3%A7a%20do%20Bosque%2C%207%2C%20Candangol%C3%A2ndia%2C%20DF%2C%2071727-255%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Candangol%C3%A2ndia%20-%20Central%2C%20Pra%C3%A7a%20do%20Bosque%2C%207%2C%20Candangol%C3%A2ndia%2C%20DF%2C%2071727-255%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -1629,7 +1656,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Chácara Girassol, Ceilândia Norte, DF, 72299-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ch%C3%A1cara%20Girassol%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072299-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ch%C3%A1cara%20Girassol%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072299-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1690,7 +1717,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Maranata, Quadra SHSN - VC 311 -Chácara 126-A - Conjunto F - Lotes 10 e 11, Ceilândia Norte, DF, 72236-800, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Maranata%2C%20Quadra%20SHSN%20-%20VC%20311%20-Ch%C3%A1cara%20126-A%20-%20Conjunto%20F%20-%20Lotes%2010%20e%2011%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072236-800%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Maranata%2C%20Quadra%20SHSN%20-%20VC%20311%20-Ch%C3%A1cara%20126-A%20-%20Conjunto%20F%20-%20Lotes%2010%20e%2011%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072236-800%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1739,13 +1766,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Vista Bela, Rua 5 - Conjunto D - Lote 9, Ceilândia Norte, DF, 72225-000, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Vista%20Bela%2C%20Rua%205%20-%20Conjunto%20D%20-%20Lote%209%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-000%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Vista%20Bela%2C%20Rua%205%20-%20Conjunto%20D%20-%20Lote%209%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-000%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0006",
-      "name": "QNN 5",
-      "neighborhood": "QNN 5",
+      "name": "QNN 5 - Central",
+      "neighborhood": "QNN 5 - Central",
       "city": "Ceilândia Norte",
       "state": "DF",
       "address": "Conjunto I - Lote 46, CEP 72225-059",
@@ -1798,10 +1825,10 @@
         "+55 (61) 3581-7481"
       ],
       "officialId": 17090,
-      "routeQuery": "Congregação Cristã no Brasil - QNN 5, Conjunto I - Lote 46, Ceilândia Norte, DF, 72225-059, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNN%205%2C%20Conjunto%20I%20-%20Lote%2046%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-059%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNN%205%2C%20Conjunto%20I%20-%20Lote%2046%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-059%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - QNN 5 - Central, Conjunto I - Lote 46, Ceilândia Norte, DF, 72225-059, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNN%205%20-%20Central%2C%20Conjunto%20I%20-%20Lote%2046%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-059%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNN%205%20-%20Central%2C%20Conjunto%20I%20-%20Lote%2046%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072225-059%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -1850,7 +1877,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Habitacional Sol Nascente, Conjunto C - Chácara 105 A - Lotes 7 e 8, Ceilândia Norte, DF, 72246-508, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Sol%20Nascente%2C%20Conjunto%20C%20-%20Ch%C3%A1cara%20105%20A%20-%20Lotes%207%20e%208%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072246-508%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Sol%20Nascente%2C%20Conjunto%20C%20-%20Ch%C3%A1cara%20105%20A%20-%20Lotes%207%20e%208%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072246-508%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -1916,7 +1943,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor O, QNO 18 - Conjunto G - Lote 18, Ceilândia Norte, DF, 72260-895, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20O%2C%20QNO%2018%20-%20Conjunto%20G%20-%20Lote%2018%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072260-895%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20O%2C%20QNO%2018%20-%20Conjunto%20G%20-%20Lote%2018%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072260-895%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -1976,7 +2003,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor P - Norte, QNP 13 - Conjunto O - Casa 50, Ceilândia Norte, DF, 72241-315, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20-%20Norte%2C%20QNP%2013%20-%20Conjunto%20O%20-%20Casa%2050%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072241-315%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20-%20Norte%2C%20QNP%2013%20-%20Conjunto%20O%20-%20Casa%2050%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072241-315%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -2030,7 +2057,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor P - Norte - SHSN Cinco Estrelas, Setor Habitacional Sol Nascente - SHSN - Conjunto B - Lotes 01 e 02, Ceilândia Norte, DF, 72236-800, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20-%20Norte%20-%20SHSN%20Cinco%20Estrelas%2C%20Setor%20Habitacional%20Sol%20Nascente%20-%20SHSN%20-%20Conjunto%20B%20-%20Lotes%2001%20e%2002%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072236-800%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20-%20Norte%20-%20SHSN%20Cinco%20Estrelas%2C%20Setor%20Habitacional%20Sol%20Nascente%20-%20SHSN%20-%20Conjunto%20B%20-%20Lotes%2001%20e%2002%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072236-800%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2098,7 +2125,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Q, QNQ 02 - Conjunto 20 - Lote 01, Ceilândia Norte, DF, 72270-020, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Q%2C%20QNQ%2002%20-%20Conjunto%2020%20-%20Lote%2001%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072270-020%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Q%2C%20QNQ%2002%20-%20Conjunto%2020%20-%20Lote%2001%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072270-020%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2141,7 +2168,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor QNR, QNR 3 - Conjunto A, Ceilândia Norte, DF, 72275-352, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20QNR%2C%20QNR%203%20-%20Conjunto%20A%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072275-352%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20QNR%2C%20QNR%203%20-%20Conjunto%20A%2C%20Ceil%C3%A2ndia%20Norte%2C%20DF%2C%2072275-352%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2203,7 +2230,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Pôr do Sol - P Sul, SHPS - Quadra 502 - Conjunto A - Lote 8, Ceilândia Sul, DF, 72238-273, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20P%C3%B4r%20do%20Sol%20-%20P%20Sul%2C%20SHPS%20-%20Quadra%20502%20-%20Conjunto%20A%20-%20Lote%208%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072238-273%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20P%C3%B4r%20do%20Sol%20-%20P%20Sul%2C%20SHPS%20-%20Quadra%20502%20-%20Conjunto%20A%20-%20Lote%208%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072238-273%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2252,13 +2279,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Novo Horizonte - Sol Nascente, SHSN - Rua Novo Horizonte - Avenida Central - Lote 110, Ceilândia Sul, DF, 72236-800, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Novo%20Horizonte%20-%20Sol%20Nascente%2C%20SHSN%20-%20Rua%20Novo%20Horizonte%20-%20Avenida%20Central%20-%20Lote%20110%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072236-800%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Novo%20Horizonte%20-%20Sol%20Nascente%2C%20SHSN%20-%20Rua%20Novo%20Horizonte%20-%20Avenida%20Central%20-%20Lote%20110%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072236-800%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
       "id": "BR-24-0007",
-      "name": "QNM 29 - Módulo H",
-      "neighborhood": "QNM 29 - Módulo H",
+      "name": "QNM 29 - Módulo H - Central",
+      "neighborhood": "QNM 29 - Módulo H - Central",
       "city": "Ceilândia Sul",
       "state": "DF",
       "address": "Endereço não informado, CEP 72215-298",
@@ -2320,10 +2347,10 @@
         "+55 (61) 3581-5381"
       ],
       "officialId": 17091,
-      "routeQuery": "Congregação Cristã no Brasil - QNM 29 - Módulo H, Ceilândia Sul, DF, 72215-298, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNM%2029%20-%20M%C3%B3dulo%20H%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072215-298%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNM%2029%20-%20M%C3%B3dulo%20H%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072215-298%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - QNM 29 - Módulo H - Central, Ceilândia Sul, DF, 72215-298, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNM%2029%20-%20M%C3%B3dulo%20H%20-%20Central%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072215-298%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNM%2029%20-%20M%C3%B3dulo%20H%20-%20Central%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072215-298%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -2391,7 +2418,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor P Sul, EQNP 6/10 - Área Especial - Módulo H, Ceilândia Sul, DF, 72230-518, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20Sul%2C%20EQNP%206%2F10%20-%20%C3%81rea%20Especial%20-%20M%C3%B3dulo%20H%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072230-518%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20P%20Sul%2C%20EQNP%206%2F10%20-%20%C3%81rea%20Especial%20-%20M%C3%B3dulo%20H%2C%20Ceil%C3%A2ndia%20Sul%2C%20DF%2C%2072230-518%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -2429,13 +2456,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Assentamento 26 de Setembro, Rua 06 - Chácara 89, Cidade Estrutural, DF, 71309-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Assentamento%2026%20de%20Setembro%2C%20Rua%2006%20-%20Ch%C3%A1cara%2089%2C%20Cidade%20Estrutural%2C%20DF%2C%2071309-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Assentamento%2026%20de%20Setembro%2C%20Rua%2006%20-%20Ch%C3%A1cara%2089%2C%20Cidade%20Estrutural%2C%20DF%2C%2071309-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
       "id": "BR-24-0089",
-      "name": "Setor Especial",
-      "neighborhood": "Setor Especial",
+      "name": "Setor Especial - Central",
+      "neighborhood": "Setor Especial - Central",
       "city": "Cidade Estrutural",
       "state": "DF",
       "address": "Quadra 1 - Conjunto 3 - Lote 2, CEP 71266-025",
@@ -2492,10 +2519,10 @@
       ],
       "phones": [],
       "officialId": 17168,
-      "routeQuery": "Congregação Cristã no Brasil - Setor Especial, Quadra 1 - Conjunto 3 - Lote 2, Cidade Estrutural, DF, 71266-025, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Especial%2C%20Quadra%201%20-%20Conjunto%203%20-%20Lote%202%2C%20Cidade%20Estrutural%2C%20DF%2C%2071266-025%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Especial%2C%20Quadra%201%20-%20Conjunto%203%20-%20Lote%202%2C%20Cidade%20Estrutural%2C%20DF%2C%2071266-025%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Setor Especial - Central, Quadra 1 - Conjunto 3 - Lote 2, Cidade Estrutural, DF, 71266-025, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Especial%20-%20Central%2C%20Quadra%201%20-%20Conjunto%203%20-%20Lote%202%2C%20Cidade%20Estrutural%2C%20DF%2C%2071266-025%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Especial%20-%20Central%2C%20Quadra%201%20-%20Conjunto%203%20-%20Lote%202%2C%20Cidade%20Estrutural%2C%20DF%2C%2071266-025%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2549,7 +2576,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Leste, Quadra SCSV 1 - Conjunto 2 - Lote 27, Cidade Estrutural, DF, 71262-110, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Leste%2C%20Quadra%20SCSV%201%20-%20Conjunto%202%20-%20Lote%2027%2C%20Cidade%20Estrutural%2C%20DF%2C%2071262-110%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Leste%2C%20Quadra%20SCSV%201%20-%20Conjunto%202%20-%20Lote%2027%2C%20Cidade%20Estrutural%2C%20DF%2C%2071262-110%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2603,13 +2630,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Oeste, Quadra 5 - Conjunto 11 - Lote 17, Cidade Estrutural, DF, 71256-205, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Oeste%2C%20Quadra%205%20-%20Conjunto%2011%20-%20Lote%2017%2C%20Cidade%20Estrutural%2C%20DF%2C%2071256-205%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Oeste%2C%20Quadra%205%20-%20Conjunto%2011%20-%20Lote%2017%2C%20Cidade%20Estrutural%2C%20DF%2C%2071256-205%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
       "id": "BR-24-0003",
-      "name": "Área Especial",
-      "neighborhood": "Área Especial",
+      "name": "Área Especial - Central",
+      "neighborhood": "Área Especial - Central",
       "city": "Cruzeiro Velho",
       "state": "DF",
       "address": "SRES - Quadra 1 - Lote 13, CEP 70640-002",
@@ -2669,10 +2696,10 @@
         "+55 (61) 3233-9752"
       ],
       "officialId": 17087,
-      "routeQuery": "Congregação Cristã no Brasil - Área Especial, SRES - Quadra 1 - Lote 13, Cruzeiro Velho, DF, 70640-002, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%2C%20SRES%20-%20Quadra%201%20-%20Lote%2013%2C%20Cruzeiro%20Velho%2C%20DF%2C%2070640-002%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%2C%20SRES%20-%20Quadra%201%20-%20Lote%2013%2C%20Cruzeiro%20Velho%2C%20DF%2C%2070640-002%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Área Especial - Central, SRES - Quadra 1 - Lote 13, Cruzeiro Velho, DF, 70640-002, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%20-%20Central%2C%20SRES%20-%20Quadra%201%20-%20Lote%2013%2C%20Cruzeiro%20Velho%2C%20DF%2C%2070640-002%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20%C3%81rea%20Especial%20-%20Central%2C%20SRES%20-%20Quadra%201%20-%20Lote%2013%2C%20Cruzeiro%20Velho%2C%20DF%2C%2070640-002%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -2722,7 +2749,7 @@
       "routeQuery": "Congregação Cristã no Brasil - DVO, Rua das Rosas - Lote 08, Gama, DF, 72491-060, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20DVO%2C%20Rua%20das%20Rosas%20-%20Lote%2008%2C%20Gama%2C%20DF%2C%2072491-060%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20DVO%2C%20Rua%20das%20Rosas%20-%20Lote%2008%2C%20Gama%2C%20DF%2C%2072491-060%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2771,7 +2798,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Engenho das Lages, Rua Oliveira - Lote 8, Gama, DF, 72492-235, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Engenho%20das%20Lages%2C%20Rua%20Oliveira%20-%20Lote%208%2C%20Gama%2C%20DF%2C%2072492-235%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Engenho%20das%20Lages%2C%20Rua%20Oliveira%20-%20Lote%208%2C%20Gama%2C%20DF%2C%2072492-235%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2809,7 +2836,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Ponte Alta de Baixo, Estrada DF-180 - Km 65 - Incubatório L-JIL, Gama, DF, 72428-800, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20de%20Baixo%2C%20Estrada%20DF-180%20-%20Km%2065%20-%20Incubat%C3%B3rio%20L-JIL%2C%20Gama%2C%20DF%2C%2072428-800%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20de%20Baixo%2C%20Estrada%20DF-180%20-%20Km%2065%20-%20Incubat%C3%B3rio%20L-JIL%2C%20Gama%2C%20DF%2C%2072428-800%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2847,7 +2874,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Ponte Alta de Cima, Chácara Dois Amigos, Gama, DF, 72426-000, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20de%20Cima%2C%20Ch%C3%A1cara%20Dois%20Amigos%2C%20Gama%2C%20DF%2C%2072426-000%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20de%20Cima%2C%20Ch%C3%A1cara%20Dois%20Amigos%2C%20Gama%2C%20DF%2C%2072426-000%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -2901,13 +2928,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Ponte Alta Norte, Chácara 05 - Dayane, Gama, DF, 72426-000, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20Norte%2C%20Ch%C3%A1cara%2005%20-%20Dayane%2C%20Gama%2C%20DF%2C%2072426-000%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Ponte%20Alta%20Norte%2C%20Ch%C3%A1cara%2005%20-%20Dayane%2C%20Gama%2C%20DF%2C%2072426-000%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0008",
-      "name": "Setor Central",
-      "neighborhood": "Setor Central",
+      "name": "Setor Central - Central",
+      "neighborhood": "Setor Central - Central",
       "city": "Gama",
       "state": "DF",
       "address": "Área Especial 1, 14 - Lote 3637, CEP 72405-610",
@@ -2967,10 +2994,10 @@
       ],
       "phones": [],
       "officialId": 17092,
-      "routeQuery": "Congregação Cristã no Brasil - Setor Central, Área Especial 1, 14 - Lote 3637, Gama, DF, 72405-610, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Central%2C%20%C3%81rea%20Especial%201%2C%2014%20-%20Lote%203637%2C%20Gama%2C%20DF%2C%2072405-610%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Central%2C%20%C3%81rea%20Especial%201%2C%2014%20-%20Lote%203637%2C%20Gama%2C%20DF%2C%2072405-610%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Setor Central - Central, Área Especial 1, 14 - Lote 3637, Gama, DF, 72405-610, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Central%20-%20Central%2C%20%C3%81rea%20Especial%201%2C%2014%20-%20Lote%203637%2C%20Gama%2C%20DF%2C%2072405-610%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Central%20-%20Central%2C%20%C3%81rea%20Especial%201%2C%2014%20-%20Lote%203637%2C%20Gama%2C%20DF%2C%2072405-610%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3037,7 +3064,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Leste, Quadra 6 - Lote 15, Gama, DF, 72450-060, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Leste%2C%20Quadra%206%20-%20Lote%2015%2C%20Gama%2C%20DF%2C%2072450-060%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Leste%2C%20Quadra%206%20-%20Lote%2015%2C%20Gama%2C%20DF%2C%2072450-060%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3099,13 +3126,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Sul, Quadra 1 - Área Especial 1 - Lote D, Gama, DF, 72410-100, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Sul%2C%20Quadra%201%20-%20%C3%81rea%20Especial%201%20-%20Lote%20D%2C%20Gama%2C%20DF%2C%2072410-100%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Sul%2C%20Quadra%201%20-%20%C3%81rea%20Especial%201%20-%20Lote%20D%2C%20Gama%2C%20DF%2C%2072410-100%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
       "id": "BR-24-0001",
-      "name": "Guará I",
-      "neighborhood": "Guará I",
+      "name": "Guará I - Central",
+      "neighborhood": "Guará I - Central",
       "city": "Guará",
       "state": "DF",
       "address": "QE 11 - Área Especial I, CEP 71020-691",
@@ -3170,10 +3197,10 @@
         "+55 (61) 99348-7222"
       ],
       "officialId": 17085,
-      "routeQuery": "Congregação Cristã no Brasil - Guará I, QE 11 - Área Especial I, Guará, DF, 71020-691, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20I%2C%20QE%2011%20-%20%C3%81rea%20Especial%20I%2C%20Guar%C3%A1%2C%20DF%2C%2071020-691%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20I%2C%20QE%2011%20-%20%C3%81rea%20Especial%20I%2C%20Guar%C3%A1%2C%20DF%2C%2071020-691%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Guará I - Central, QE 11 - Área Especial I, Guará, DF, 71020-691, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20I%20-%20Central%2C%20QE%2011%20-%20%C3%81rea%20Especial%20I%2C%20Guar%C3%A1%2C%20DF%2C%2071020-691%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20I%20-%20Central%2C%20QE%2011%20-%20%C3%81rea%20Especial%20I%2C%20Guar%C3%A1%2C%20DF%2C%2071020-691%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3227,7 +3254,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Guará II, QE 38 - Conjunto K - Casa 25, Guará, DF, 71070-110, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20II%2C%20QE%2038%20-%20Conjunto%20K%20-%20Casa%2025%2C%20Guar%C3%A1%2C%20DF%2C%2071070-110%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Guar%C3%A1%20II%2C%20QE%2038%20-%20Conjunto%20K%20-%20Casa%2025%2C%20Guar%C3%A1%2C%20DF%2C%2071070-110%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3281,7 +3308,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Lúcio Costa, Conjunto B - Chácara 9 - Lote 10, Guará, DF, 71090-085, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20L%C3%BAcio%20Costa%2C%20Conjunto%20B%20-%20Ch%C3%A1cara%209%20-%20Lote%2010%2C%20Guar%C3%A1%2C%20DF%2C%2071090-085%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20L%C3%BAcio%20Costa%2C%20Conjunto%20B%20-%20Ch%C3%A1cara%209%20-%20Lote%2010%2C%20Guar%C3%A1%2C%20DF%2C%2071090-085%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3335,13 +3362,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Del Lago II, Quadra 378 - Conjunto K - Lote 6, Itapoã, DF, 71593-630, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Del%20Lago%20II%2C%20Quadra%20378%20-%20Conjunto%20K%20-%20Lote%206%2C%20Itapo%C3%A3%2C%20DF%2C%2071593-630%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Del%20Lago%20II%2C%20Quadra%20378%20-%20Conjunto%20K%20-%20Lote%206%2C%20Itapo%C3%A3%2C%20DF%2C%2071593-630%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0085",
-      "name": "Itapoã I",
-      "neighborhood": "Itapoã I",
+      "name": "Itapoã I - Central",
+      "neighborhood": "Itapoã I - Central",
       "city": "Itapoã",
       "state": "DF",
       "address": "Quadra 1 - Conjunto I - Lote 4, CEP 71590-227",
@@ -3386,10 +3413,10 @@
       ],
       "phones": [],
       "officialId": 17164,
-      "routeQuery": "Congregação Cristã no Brasil - Itapoã I, Quadra 1 - Conjunto I - Lote 4, Itapoã, DF, 71590-227, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Itapo%C3%A3%20I%2C%20Quadra%201%20-%20Conjunto%20I%20-%20Lote%204%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-227%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Itapo%C3%A3%20I%2C%20Quadra%201%20-%20Conjunto%20I%20-%20Lote%204%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-227%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Itapoã I - Central, Quadra 1 - Conjunto I - Lote 4, Itapoã, DF, 71590-227, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Itapo%C3%A3%20I%20-%20Central%2C%20Quadra%201%20-%20Conjunto%20I%20-%20Lote%204%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-227%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Itapo%C3%A3%20I%20-%20Central%2C%20Quadra%201%20-%20Conjunto%20I%20-%20Lote%204%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-227%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3438,7 +3465,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Mandala, Quadra 318 - Conjunto J - Lote 1, Itapoã, DF, 71593-240, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Mandala%2C%20Quadra%20318%20-%20Conjunto%20J%20-%20Lote%201%2C%20Itapo%C3%A3%2C%20DF%2C%2071593-240%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Mandala%2C%20Quadra%20318%20-%20Conjunto%20J%20-%20Lote%201%2C%20Itapo%C3%A3%2C%20DF%2C%2071593-240%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3487,13 +3514,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila Margarida - Rota do Cavalo, Rua 5 - Espaço 232, Itapoã, DF, 71590-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Margarida%20-%20Rota%20do%20Cavalo%2C%20Rua%205%20-%20Espa%C3%A7o%20232%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Margarida%20-%20Rota%20do%20Cavalo%2C%20Rua%205%20-%20Espa%C3%A7o%20232%2C%20Itapo%C3%A3%2C%20DF%2C%2071590-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0044",
-      "name": "Varjão do Torto",
-      "neighborhood": "Varjão do Torto",
+      "name": "Varjão do Torto - Central",
+      "neighborhood": "Varjão do Torto - Central",
       "city": "Lago Norte",
       "state": "DF",
       "address": "Quadra 5 - Conjunto I - Lote 3, CEP 71540-400",
@@ -3540,16 +3567,16 @@
         "+55 (61) 99341-1257"
       ],
       "officialId": 17124,
-      "routeQuery": "Congregação Cristã no Brasil - Varjão do Torto, Quadra 5 - Conjunto I - Lote 3, Lago Norte, DF, 71540-400, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Varj%C3%A3o%20do%20Torto%2C%20Quadra%205%20-%20Conjunto%20I%20-%20Lote%203%2C%20Lago%20Norte%2C%20DF%2C%2071540-400%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Varj%C3%A3o%20do%20Torto%2C%20Quadra%205%20-%20Conjunto%20I%20-%20Lote%203%2C%20Lago%20Norte%2C%20DF%2C%2071540-400%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Varjão do Torto - Central, Quadra 5 - Conjunto I - Lote 3, Lago Norte, DF, 71540-400, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Varj%C3%A3o%20do%20Torto%20-%20Central%2C%20Quadra%205%20-%20Conjunto%20I%20-%20Lote%203%2C%20Lago%20Norte%2C%20DF%2C%2071540-400%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Varj%C3%A3o%20do%20Torto%20-%20Central%2C%20Quadra%205%20-%20Conjunto%20I%20-%20Lote%203%2C%20Lago%20Norte%2C%20DF%2C%2071540-400%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0002",
-      "name": "Terceira Avenida Área Especial 6",
-      "neighborhood": "Terceira Avenida Área Especial 6",
+      "name": "Terceira Avenida Área Especial 6 - Central",
+      "neighborhood": "Terceira Avenida Área Especial 6 - Central",
       "city": "Núcleo Bandeirante",
       "state": "DF",
       "address": "Módulos E e Q, CEP 71720-588",
@@ -3614,10 +3641,10 @@
         "+55 (61) 99236-5641"
       ],
       "officialId": 17086,
-      "routeQuery": "Congregação Cristã no Brasil - Terceira Avenida Área Especial 6, Módulos E e Q, Núcleo Bandeirante, DF, 71720-588, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Terceira%20Avenida%20%C3%81rea%20Especial%206%2C%20M%C3%B3dulos%20E%20e%20Q%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071720-588%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Terceira%20Avenida%20%C3%81rea%20Especial%206%2C%20M%C3%B3dulos%20E%20e%20Q%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071720-588%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Terceira Avenida Área Especial 6 - Central, Módulos E e Q, Núcleo Bandeirante, DF, 71720-588, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Terceira%20Avenida%20%C3%81rea%20Especial%206%20-%20Central%2C%20M%C3%B3dulos%20E%20e%20Q%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071720-588%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Terceira%20Avenida%20%C3%81rea%20Especial%206%20-%20Central%2C%20M%C3%B3dulos%20E%20e%20Q%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071720-588%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3666,7 +3693,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vargem Bonita - SMPW, Quadra 8 - Lote 5, Núcleo Bandeirante, DF, 71750-080, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vargem%20Bonita%20-%20SMPW%2C%20Quadra%208%20-%20Lote%205%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071750-080%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vargem%20Bonita%20-%20SMPW%2C%20Quadra%208%20-%20Lote%205%2C%20N%C3%BAcleo%20Bandeirante%2C%20DF%2C%2071750-080%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3704,7 +3731,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Agrovila Capão Seco, Lote 38, Paranoá, DF, 71570-990, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Agrovila%20Cap%C3%A3o%20Seco%2C%20Lote%2038%2C%20Parano%C3%A1%2C%20DF%2C%2071570-990%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Agrovila%20Cap%C3%A3o%20Seco%2C%20Lote%2038%2C%20Parano%C3%A1%2C%20DF%2C%2071570-990%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3753,7 +3780,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Altiplano Leste, Chácara Jardim Segredo, Paranoá, DF, 71589-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Altiplano%20Leste%2C%20Ch%C3%A1cara%20Jardim%20Segredo%2C%20Parano%C3%A1%2C%20DF%2C%2071589-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Altiplano%20Leste%2C%20Ch%C3%A1cara%20Jardim%20Segredo%2C%20Parano%C3%A1%2C%20DF%2C%2071589-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -3807,13 +3834,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Paranoá Parque, Quadra 21 - Conjunto L - Lote 16, Paranoá, DF, 71572-112, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Parano%C3%A1%20Parque%2C%20Quadra%2021%20-%20Conjunto%20L%20-%20Lote%2016%2C%20Parano%C3%A1%2C%20DF%2C%2071572-112%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Parano%C3%A1%20Parque%2C%20Quadra%2021%20-%20Conjunto%20L%20-%20Lote%2016%2C%20Parano%C3%A1%2C%20DF%2C%2071572-112%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0014",
-      "name": "Quadra 30 - Conjunto D - Lotes 28 e 29",
-      "neighborhood": "Quadra 30 - Conjunto D - Lotes 28 e 29",
+      "name": "Quadra 30 - Conjunto D - Lotes 28 e 29 - Central",
+      "neighborhood": "Quadra 30 - Conjunto D - Lotes 28 e 29 - Central",
       "city": "Paranoá",
       "state": "DF",
       "address": "Endereço não informado, CEP 71573-024",
@@ -3873,10 +3900,10 @@
         "+55 (61) 99320-9686"
       ],
       "officialId": 17098,
-      "routeQuery": "Congregação Cristã no Brasil - Quadra 30 - Conjunto D - Lotes 28 e 29, Paranoá, DF, 71573-024, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%2030%20-%20Conjunto%20D%20-%20Lotes%2028%20e%2029%2C%20Parano%C3%A1%2C%20DF%2C%2071573-024%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%2030%20-%20Conjunto%20D%20-%20Lotes%2028%20e%2029%2C%20Parano%C3%A1%2C%20DF%2C%2071573-024%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Quadra 30 - Conjunto D - Lotes 28 e 29 - Central, Paranoá, DF, 71573-024, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%2030%20-%20Conjunto%20D%20-%20Lotes%2028%20e%2029%20-%20Central%2C%20Parano%C3%A1%2C%20DF%2C%2071573-024%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%2030%20-%20Conjunto%20D%20-%20Lotes%2028%20e%2029%20-%20Central%2C%20Parano%C3%A1%2C%20DF%2C%2071573-024%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3930,7 +3957,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Sobradinho dos Melos, Rodovia DF-250 - Km 5, Paranoá, DF, 71589-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Sobradinho%20dos%20Melos%2C%20Rodovia%20DF-250%20-%20Km%205%2C%20Parano%C3%A1%2C%20DF%2C%2071589-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Sobradinho%20dos%20Melos%2C%20Rodovia%20DF-250%20-%20Km%205%2C%20Parano%C3%A1%2C%20DF%2C%2071589-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -3979,7 +4006,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Agrovila Taquara, Quadra 02 - Lote 04, Planaltina, DF, 73307-991, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Agrovila%20Taquara%2C%20Quadra%2002%20-%20Lote%2004%2C%20Planaltina%2C%20DF%2C%2073307-991%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Agrovila%20Taquara%2C%20Quadra%2002%20-%20Lote%2004%2C%20Planaltina%2C%20DF%2C%2073307-991%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4045,7 +4072,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Arapoanga, Quadra 21- Conjunto I - Lote 10, Planaltina, DF, 73368-724, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Arapoanga%2C%20Quadra%2021-%20Conjunto%20I%20-%20Lote%2010%2C%20Planaltina%2C%20DF%2C%2073368-724%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Arapoanga%2C%20Quadra%2021-%20Conjunto%20I%20-%20Lote%2010%2C%20Planaltina%2C%20DF%2C%2073368-724%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4094,13 +4121,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Buritis III - Setor Residencial Leste, Quadra 12 - Conjunto 4 - Casa 11, Planaltina, DF, 73355-204, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20III%20-%20Setor%20Residencial%20Leste%2C%20Quadra%2012%20-%20Conjunto%204%20-%20Casa%2011%2C%20Planaltina%2C%20DF%2C%2073355-204%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20III%20-%20Setor%20Residencial%20Leste%2C%20Quadra%2012%20-%20Conjunto%204%20-%20Casa%2011%2C%20Planaltina%2C%20DF%2C%2073355-204%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0078",
-      "name": "Buritis IV - Setor Residencial Leste",
-      "neighborhood": "Buritis IV - Setor Residencial Leste",
+      "name": "Buritis IV - Setor Residencial Leste - Central",
+      "neighborhood": "Buritis IV - Setor Residencial Leste - Central",
       "city": "Planaltina",
       "state": "DF",
       "address": "Quadra 24 - Área Especial 3, CEP 73358-385",
@@ -4163,10 +4190,10 @@
       ],
       "phones": [],
       "officialId": 17157,
-      "routeQuery": "Congregação Cristã no Brasil - Buritis IV - Setor Residencial Leste, Quadra 24 - Área Especial 3, Planaltina, DF, 73358-385, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20IV%20-%20Setor%20Residencial%20Leste%2C%20Quadra%2024%20-%20%C3%81rea%20Especial%203%2C%20Planaltina%2C%20DF%2C%2073358-385%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20IV%20-%20Setor%20Residencial%20Leste%2C%20Quadra%2024%20-%20%C3%81rea%20Especial%203%2C%20Planaltina%2C%20DF%2C%2073358-385%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Buritis IV - Setor Residencial Leste - Central, Quadra 24 - Área Especial 3, Planaltina, DF, 73358-385, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20IV%20-%20Setor%20Residencial%20Leste%20-%20Central%2C%20Quadra%2024%20-%20%C3%81rea%20Especial%203%2C%20Planaltina%2C%20DF%2C%2073358-385%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Buritis%20IV%20-%20Setor%20Residencial%20Leste%20-%20Central%2C%20Quadra%2024%20-%20%C3%81rea%20Especial%203%2C%20Planaltina%2C%20DF%2C%2073358-385%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4210,7 +4237,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Mansões do Amanhecer, Conjunto A - Lote 14, Planaltina, DF, 73376-603, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Mans%C3%B5es%20do%20Amanhecer%2C%20Conjunto%20A%20-%20Lote%2014%2C%20Planaltina%2C%20DF%2C%2073376-603%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Mans%C3%B5es%20do%20Amanhecer%2C%20Conjunto%20A%20-%20Lote%2014%2C%20Planaltina%2C%20DF%2C%2073376-603%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4264,7 +4291,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Jardim Roriz, Quadra 3 - Conjunto 3H - Lote 28, Planaltina, DF, 73340-308, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Roriz%2C%20Quadra%203%20-%20Conjunto%203H%20-%20Lote%2028%2C%20Planaltina%2C%20DF%2C%2073340-308%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Jardim%20Roriz%2C%20Quadra%203%20-%20Conjunto%203H%20-%20Lote%2028%2C%20Planaltina%2C%20DF%2C%2073340-308%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4313,7 +4340,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Núcleo Rural Rajadinha III, Planaltina, DF, 73499-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Rajadinha%20III%2C%20Planaltina%2C%20DF%2C%2073499-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Rajadinha%20III%2C%20Planaltina%2C%20DF%2C%2073499-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4357,7 +4384,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Núcleo Rural Santos Dumont, Lote 27 A - Gleba 3, Planaltina, DF, 73499-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Santos%20Dumont%2C%20Lote%2027%20A%20-%20Gleba%203%2C%20Planaltina%2C%20DF%2C%2073499-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20N%C3%BAcleo%20Rural%20Santos%20Dumont%2C%20Lote%2027%20A%20-%20Gleba%203%2C%20Planaltina%2C%20DF%2C%2073499-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4406,7 +4433,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Habitacional Mestre D'Armas III, Quadra 14 - Módulo 13 - Lote 20, Planaltina, DF, 73401-633, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Mestre%20D'Armas%20III%2C%20Quadra%2014%20-%20M%C3%B3dulo%2013%20-%20Lote%2020%2C%20Planaltina%2C%20DF%2C%2073401-633%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Mestre%20D'Armas%20III%2C%20Quadra%2014%20-%20M%C3%B3dulo%2013%20-%20Lote%2020%2C%20Planaltina%2C%20DF%2C%2073401-633%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4468,7 +4495,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Mansões Itiquira, Módulo 16 - Lote 2, Planaltina, DF, 73403-148, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Mans%C3%B5es%20Itiquira%2C%20M%C3%B3dulo%2016%20-%20Lote%202%2C%20Planaltina%2C%20DF%2C%2073403-148%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Mans%C3%B5es%20Itiquira%2C%20M%C3%B3dulo%2016%20-%20Lote%202%2C%20Planaltina%2C%20DF%2C%2073403-148%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4517,7 +4544,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vale do Amanhecer, Conjunto Residencial 95 - Lotes 3,4 e 5, Planaltina, DF, 73381-095, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vale%20do%20Amanhecer%2C%20Conjunto%20Residencial%2095%20-%20Lotes%203%2C4%20e%205%2C%20Planaltina%2C%20DF%2C%2073381-095%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vale%20do%20Amanhecer%2C%20Conjunto%20Residencial%2095%20-%20Lotes%203%2C4%20e%205%2C%20Planaltina%2C%20DF%2C%2073381-095%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4566,7 +4593,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila São José, Núcleo Rural São José - Lote 40, Planaltina, DF, 73390-300, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20S%C3%A3o%20Jos%C3%A9%2C%20N%C3%BAcleo%20Rural%20S%C3%A3o%20Jos%C3%A9%20-%20Lote%2040%2C%20Planaltina%2C%20DF%2C%2073390-300%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20S%C3%A3o%20Jos%C3%A9%2C%20N%C3%BAcleo%20Rural%20S%C3%A3o%20Jos%C3%A9%20-%20Lote%2040%2C%20Planaltina%2C%20DF%2C%2073390-300%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4614,7 +4641,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Asa Branca, Rodovia BR-060 - Km 15, Recanto Das Emas, DF, 72668-100, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Branca%2C%20Rodovia%20BR-060%20-%20Km%2015%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072668-100%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Asa%20Branca%2C%20Rodovia%20BR-060%20-%20Km%2015%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072668-100%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -4668,7 +4695,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Quadra 115 - Lote 13, Avenida Recanto das Emas, Recanto Das Emas, DF, 72603-309, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20115%20-%20Lote%2013%2C%20Avenida%20Recanto%20das%20Emas%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072603-309%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20115%20-%20Lote%2013%2C%20Avenida%20Recanto%20das%20Emas%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072603-309%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4717,7 +4744,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Quadra 803 - Conjunto 19 - Casa 17, Recanto Das Emas, DF, 72650-500, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20803%20-%20Conjunto%2019%20-%20Casa%2017%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072650-500%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20803%20-%20Conjunto%2019%20-%20Casa%2017%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072650-500%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4767,13 +4794,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Habitacional Águas Quentes, Quadra C - Lote 28, Recanto Das Emas, DF, 72669-309, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20%C3%81guas%20Quentes%2C%20Quadra%20C%20-%20Lote%2028%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072669-309%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20%C3%81guas%20Quentes%2C%20Quadra%20C%20-%20Lote%2028%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072669-309%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0136",
-      "name": "Setor Hospitalar",
-      "neighborhood": "Setor Hospitalar",
+      "name": "Setor Hospitalar - Central",
+      "neighborhood": "Setor Hospitalar - Central",
       "city": "Recanto Das Emas",
       "state": "DF",
       "address": "Quadra 105 - Lote 50, CEP 72600-500",
@@ -4830,10 +4857,10 @@
       ],
       "phones": [],
       "officialId": 41700,
-      "routeQuery": "Congregação Cristã no Brasil - Setor Hospitalar, Quadra 105 - Lote 50, Recanto Das Emas, DF, 72600-500, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Hospitalar%2C%20Quadra%20105%20-%20Lote%2050%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072600-500%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Hospitalar%2C%20Quadra%20105%20-%20Lote%2050%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072600-500%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Setor Hospitalar - Central, Quadra 105 - Lote 50, Recanto Das Emas, DF, 72600-500, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Hospitalar%20-%20Central%2C%20Quadra%20105%20-%20Lote%2050%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072600-500%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Hospitalar%20-%20Central%2C%20Quadra%20105%20-%20Lote%2050%2C%20Recanto%20Das%20Emas%2C%20DF%2C%2072600-500%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4882,7 +4909,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Canegae, Colônia Agrícola Riacho Fundo, Riacho Fundo, DF, 71828-435, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Canegae%2C%20Col%C3%B4nia%20Agr%C3%ADcola%20Riacho%20Fundo%2C%20Riacho%20Fundo%2C%20DF%2C%2071828-435%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Canegae%2C%20Col%C3%B4nia%20Agr%C3%ADcola%20Riacho%20Fundo%2C%20Riacho%20Fundo%2C%20DF%2C%2071828-435%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -4931,13 +4958,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Colônia Agrícola Sucupira, Chácara 27 - Lote 9, Riacho Fundo, DF, 71827-750, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Col%C3%B4nia%20Agr%C3%ADcola%20Sucupira%2C%20Ch%C3%A1cara%2027%20-%20Lote%209%2C%20Riacho%20Fundo%2C%20DF%2C%2071827-750%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Col%C3%B4nia%20Agr%C3%ADcola%20Sucupira%2C%20Ch%C3%A1cara%2027%20-%20Lote%209%2C%20Riacho%20Fundo%2C%20DF%2C%2071827-750%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0047",
-      "name": "Riacho Fundo I",
-      "neighborhood": "Riacho Fundo I",
+      "name": "Riacho Fundo I - Central",
+      "neighborhood": "Riacho Fundo I - Central",
       "city": "Riacho Fundo",
       "state": "DF",
       "address": "Área Especial A - QS 12 - Conjunto 8-A, CEP 71825-221",
@@ -4997,10 +5024,10 @@
         "+55 (61) 99353-0189"
       ],
       "officialId": 17127,
-      "routeQuery": "Congregação Cristã no Brasil - Riacho Fundo I, Área Especial A - QS 12 - Conjunto 8-A, Riacho Fundo, DF, 71825-221, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20I%2C%20%C3%81rea%20Especial%20A%20-%20QS%2012%20-%20Conjunto%208-A%2C%20Riacho%20Fundo%2C%20DF%2C%2071825-221%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20I%2C%20%C3%81rea%20Especial%20A%20-%20QS%2012%20-%20Conjunto%208-A%2C%20Riacho%20Fundo%2C%20DF%2C%2071825-221%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Riacho Fundo I - Central, Área Especial A - QS 12 - Conjunto 8-A, Riacho Fundo, DF, 71825-221, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20I%20-%20Central%2C%20%C3%81rea%20Especial%20A%20-%20QS%2012%20-%20Conjunto%208-A%2C%20Riacho%20Fundo%2C%20DF%2C%2071825-221%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20I%20-%20Central%2C%20%C3%81rea%20Especial%20A%20-%20QS%2012%20-%20Conjunto%208-A%2C%20Riacho%20Fundo%2C%20DF%2C%2071825-221%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5060,7 +5087,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Riacho Fundo II, QN 7D - Conjunto 5 - Lote 1, Riacho Fundo, DF, 71880-045, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%2C%20QN%207D%20-%20Conjunto%205%20-%20Lote%201%2C%20Riacho%20Fundo%2C%20DF%2C%2071880-045%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%2C%20QN%207D%20-%20Conjunto%205%20-%20Lote%201%2C%20Riacho%20Fundo%2C%20DF%2C%2071880-045%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5115,7 +5142,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Riacho Fundo II - Caub I, Lote 73, Riacho Fundo, DF, 71884-690, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%20-%20Caub%20I%2C%20Lote%2073%2C%20Riacho%20Fundo%2C%20DF%2C%2071884-690%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%20-%20Caub%20I%2C%20Lote%2073%2C%20Riacho%20Fundo%2C%20DF%2C%2071884-690%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5164,7 +5191,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Riacho Fundo II - Caub II, Quadra QS 16 - Conjunto 7 - Lote 4, Riacho Fundo, DF, 71884-300, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%20-%20Caub%20II%2C%20Quadra%20QS%2016%20-%20Conjunto%207%20-%20Lote%204%2C%20Riacho%20Fundo%2C%20DF%2C%2071884-300%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Riacho%20Fundo%20II%20-%20Caub%20II%2C%20Quadra%20QS%2016%20-%20Conjunto%207%20-%20Lote%204%2C%20Riacho%20Fundo%2C%20DF%2C%2071884-300%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5230,13 +5257,13 @@
       "routeQuery": "Congregação Cristã no Brasil - QN 210, Conjunto F - Lote 1, Samambaia, DF, 72316-526, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20210%2C%20Conjunto%20F%20-%20Lote%201%2C%20Samambaia%2C%20DF%2C%2072316-526%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20210%2C%20Conjunto%20F%20-%20Lote%201%2C%20Samambaia%2C%20DF%2C%2072316-526%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0038",
-      "name": "QN 306",
-      "neighborhood": "QN 306",
+      "name": "QN 306 - Central",
+      "neighborhood": "QN 306 - Central",
       "city": "Samambaia",
       "state": "DF",
       "address": "Conjunto 5 - Lote 8, CEP 72306-205",
@@ -5301,10 +5328,10 @@
         "+55 (61) 99345-6411"
       ],
       "officialId": 17118,
-      "routeQuery": "Congregação Cristã no Brasil - QN 306, Conjunto 5 - Lote 8, Samambaia, DF, 72306-205, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20306%2C%20Conjunto%205%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072306-205%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20306%2C%20Conjunto%205%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072306-205%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - QN 306 - Central, Conjunto 5 - Lote 8, Samambaia, DF, 72306-205, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20306%20-%20Central%2C%20Conjunto%205%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072306-205%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20306%20-%20Central%2C%20Conjunto%205%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072306-205%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5364,7 +5391,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QN 309, Conjunto 2 - Lote 8, Samambaia, DF, 72305-702, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20309%2C%20Conjunto%202%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072305-702%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QN%20309%2C%20Conjunto%202%20-%20Lote%208%2C%20Samambaia%2C%20DF%2C%2072305-702%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5407,7 +5434,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 1033, Conjunto 7 - Lote 37, Samambaia, DF, 72339-077, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%201033%2C%20Conjunto%207%20-%20Lote%2037%2C%20Samambaia%2C%20DF%2C%2072339-077%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%201033%2C%20Conjunto%207%20-%20Lote%2037%2C%20Samambaia%2C%20DF%2C%2072339-077%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5461,7 +5488,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 327, Conjunto 4 - Casa 7, Samambaia, DF, 72311-104, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20327%2C%20Conjunto%204%20-%20Casa%207%2C%20Samambaia%2C%20DF%2C%2072311-104%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20327%2C%20Conjunto%204%20-%20Casa%207%2C%20Samambaia%2C%20DF%2C%2072311-104%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5517,7 +5544,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 405, Conjunto 21 - Casa 35, Samambaia, DF, 72319-221, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20405%2C%20Conjunto%2021%20-%20Casa%2035%2C%20Samambaia%2C%20DF%2C%2072319-221%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20405%2C%20Conjunto%2021%20-%20Casa%2035%2C%20Samambaia%2C%20DF%2C%2072319-221%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5571,7 +5598,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 423, Conjunto 3 - Lote 16, Samambaia, DF, 72325-203, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20423%2C%20Conjunto%203%20-%20Lote%2016%2C%20Samambaia%2C%20DF%2C%2072325-203%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20423%2C%20Conjunto%203%20-%20Lote%2016%2C%20Samambaia%2C%20DF%2C%2072325-203%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5625,7 +5652,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 429, Conjunto 17 - Casa 10, Samambaia, DF, 72329-017, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20429%2C%20Conjunto%2017%20-%20Casa%2010%2C%20Samambaia%2C%20DF%2C%2072329-017%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20429%2C%20Conjunto%2017%20-%20Casa%2010%2C%20Samambaia%2C%20DF%2C%2072329-017%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5680,7 +5707,7 @@
       "routeQuery": "Congregação Cristã no Brasil - CL 106 - Lote E, Santa Maria, DF, 72506-205, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20106%20-%20Lote%20E%2C%20Santa%20Maria%2C%20DF%2C%2072506-205%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20106%20-%20Lote%20E%2C%20Santa%20Maria%2C%20DF%2C%2072506-205%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5729,7 +5756,7 @@
       "routeQuery": "Congregação Cristã no Brasil - CL 118 - Bloco K, Santa Maria, DF, 72548-211, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20118%20-%20Bloco%20K%2C%20Santa%20Maria%2C%20DF%2C%2072548-211%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20118%20-%20Bloco%20K%2C%20Santa%20Maria%2C%20DF%2C%2072548-211%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5783,7 +5810,7 @@
       "routeQuery": "Congregação Cristã no Brasil - CL 517 - Bloco B, Santa Maria, DF, 72547-704, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20517%20-%20Bloco%20B%2C%20Santa%20Maria%2C%20DF%2C%2072547-704%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20CL%20517%20-%20Bloco%20B%2C%20Santa%20Maria%2C%20DF%2C%2072547-704%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5843,7 +5870,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Porto Rico, Quadra 11 - Lote 18 - 3ª Etapa, Santa Maria, DF, 72504-003, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Porto%20Rico%2C%20Quadra%2011%20-%20Lote%2018%20-%203%C2%AA%20Etapa%2C%20Santa%20Maria%2C%20DF%2C%2072504-003%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Porto%20Rico%2C%20Quadra%2011%20-%20Lote%2018%20-%203%C2%AA%20Etapa%2C%20Santa%20Maria%2C%20DF%2C%2072504-003%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5897,7 +5924,7 @@
       "routeQuery": "Congregação Cristã no Brasil - QC 2, Conjunto I - Lote 4, Santa Maria, DF, 72536-090, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QC%202%2C%20Conjunto%20I%20-%20Lote%204%2C%20Santa%20Maria%2C%20DF%2C%2072536-090%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QC%202%2C%20Conjunto%20I%20-%20Lote%204%2C%20Santa%20Maria%2C%20DF%2C%2072536-090%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -5946,13 +5973,13 @@
       "routeQuery": "Congregação Cristã no Brasil - QR 121, Conjunto B - Lote 29, Santa Maria, DF, 72547-377, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20121%2C%20Conjunto%20B%20-%20Lote%2029%2C%20Santa%20Maria%2C%20DF%2C%2072547-377%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QR%20121%2C%20Conjunto%20B%20-%20Lote%2029%2C%20Santa%20Maria%2C%20DF%2C%2072547-377%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0057",
-      "name": "Quadra 212/312",
-      "neighborhood": "Quadra 212/312",
+      "name": "Quadra 212/312 - Central",
+      "neighborhood": "Quadra 212/312 - Central",
       "city": "Santa Maria",
       "state": "DF",
       "address": "EQ 212/312 - Lote A - Área Especial, CEP 72542-502",
@@ -6012,10 +6039,10 @@
         "+55 (61) 99327-2370"
       ],
       "officialId": 17136,
-      "routeQuery": "Congregação Cristã no Brasil - Quadra 212/312, EQ 212/312 - Lote A - Área Especial, Santa Maria, DF, 72542-502, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20212%2F312%2C%20EQ%20212%2F312%20-%20Lote%20A%20-%20%C3%81rea%20Especial%2C%20Santa%20Maria%2C%20DF%2C%2072542-502%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20212%2F312%2C%20EQ%20212%2F312%20-%20Lote%20A%20-%20%C3%81rea%20Especial%2C%20Santa%20Maria%2C%20DF%2C%2072542-502%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Quadra 212/312 - Central, EQ 212/312 - Lote A - Área Especial, Santa Maria, DF, 72542-502, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20212%2F312%20-%20Central%2C%20EQ%20212%2F312%20-%20Lote%20A%20-%20%C3%81rea%20Especial%2C%20Santa%20Maria%2C%20DF%2C%2072542-502%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Quadra%20212%2F312%20-%20Central%2C%20EQ%20212%2F312%20-%20Lote%20A%20-%20%C3%81rea%20Especial%2C%20Santa%20Maria%2C%20DF%2C%2072542-502%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6069,7 +6096,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Café Sem Troco, Chácara 41-Lote 01 - Rural Leste - Rodovia DF-130 - Km 33, São Sebastião, DF, 71570-990, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Caf%C3%A9%20Sem%20Troco%2C%20Ch%C3%A1cara%2041-Lote%2001%20-%20Rural%20Leste%20-%20Rodovia%20DF-130%20-%20Km%2033%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071570-990%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Caf%C3%A9%20Sem%20Troco%2C%20Ch%C3%A1cara%2041-Lote%2001%20-%20Rural%20Leste%20-%20Rodovia%20DF-130%20-%20Km%2033%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071570-990%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6107,7 +6134,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Morro da Cruz - Zumbi dos Palmares, Quadra 5 - Lote 1 - Conjunto 40, São Sebastião, DF, 71699-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Morro%20da%20Cruz%20-%20Zumbi%20dos%20Palmares%2C%20Quadra%205%20-%20Lote%201%20-%20Conjunto%2040%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Morro%20da%20Cruz%20-%20Zumbi%20dos%20Palmares%2C%20Quadra%205%20-%20Lote%201%20-%20Conjunto%2040%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -6140,7 +6167,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Nova Betânia, Núcleo Rural Chapada - Chácara Araújo - DF-135, São Sebastião, DF, 71693-993, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Nova%20Bet%C3%A2nia%2C%20N%C3%BAcleo%20Rural%20Chapada%20-%20Ch%C3%A1cara%20Ara%C3%BAjo%20-%20DF-135%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-993%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Nova%20Bet%C3%A2nia%2C%20N%C3%BAcleo%20Rural%20Chapada%20-%20Ch%C3%A1cara%20Ara%C3%BAjo%20-%20DF-135%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-993%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6184,7 +6211,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Residencial Vivendas Del Rey, Quadra C - Lote 1B, São Sebastião, DF, 72596-560, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Residencial%20Vivendas%20Del%20Rey%2C%20Quadra%20C%20-%20Lote%201B%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2072596-560%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Residencial%20Vivendas%20Del%20Rey%2C%20Quadra%20C%20-%20Lote%201B%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2072596-560%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6227,13 +6254,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Rosa de Saron, 108 e 109, São Sebastião, DF, 71699-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Rosa%20de%20Saron%2C%20108%20e%20109%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Rosa%20de%20Saron%2C%20108%20e%20109%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0067",
-      "name": "São Francisco",
-      "neighborhood": "São Francisco",
+      "name": "São Francisco - Central",
+      "neighborhood": "São Francisco - Central",
       "city": "São Sebastião",
       "state": "DF",
       "address": "Quadra 8 - Lotes 1 e 2, CEP 71693-308",
@@ -6292,10 +6319,10 @@
       ],
       "phones": [],
       "officialId": 17146,
-      "routeQuery": "Congregação Cristã no Brasil - São Francisco, Quadra 8 - Lotes 1 e 2, São Sebastião, DF, 71693-308, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20S%C3%A3o%20Francisco%2C%20Quadra%208%20-%20Lotes%201%20e%202%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-308%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20S%C3%A3o%20Francisco%2C%20Quadra%208%20-%20Lotes%201%20e%202%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-308%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - São Francisco - Central, Quadra 8 - Lotes 1 e 2, São Sebastião, DF, 71693-308, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20S%C3%A3o%20Francisco%20-%20Central%2C%20Quadra%208%20-%20Lotes%201%20e%202%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-308%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20S%C3%A3o%20Francisco%20-%20Central%2C%20Quadra%208%20-%20Lotes%201%20e%202%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071693-308%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6333,7 +6360,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Residencial Oeste, Quadra 305 - Conjunto 8 - Lote 7, São Sebastião, DF, 71691-585, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Residencial%20Oeste%2C%20Quadra%20305%20-%20Conjunto%208%20-%20Lote%207%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071691-585%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Residencial%20Oeste%2C%20Quadra%20305%20-%20Conjunto%208%20-%20Lote%207%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071691-585%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6389,7 +6416,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Tradicional, Rua 36 - Lote 190/210, São Sebastião, DF, 71691-143, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Tradicional%2C%20Rua%2036%20-%20Lote%20190%2F210%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071691-143%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Tradicional%2C%20Rua%2036%20-%20Lote%20190%2F210%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071691-143%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6415,7 +6442,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila do Boa, Rua São Lucas - Lote 1 - Loja 3, São Sebastião, DF, 71697-335, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20do%20Boa%2C%20Rua%20S%C3%A3o%20Lucas%20-%20Lote%201%20-%20Loja%203%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071697-335%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20do%20Boa%2C%20Rua%20S%C3%A3o%20Lucas%20-%20Lote%201%20-%20Loja%203%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071697-335%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -6453,7 +6480,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila Sussuarana, Rodovia DF-270, São Sebastião, DF, 71699-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Sussuarana%2C%20Rodovia%20DF-270%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Sussuarana%2C%20Rodovia%20DF-270%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20DF%2C%2071699-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6491,13 +6518,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Boa Vista - Fercal, Rodovia DF-205 - Km 6 - Quadra 2 - Loja 2, Sobradinho, DF, 73150-045, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Boa%20Vista%20-%20Fercal%2C%20Rodovia%20DF-205%20-%20Km%206%20-%20Quadra%202%20-%20Loja%202%2C%20Sobradinho%2C%20DF%2C%2073150-045%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Boa%20Vista%20-%20Fercal%2C%20Rodovia%20DF-205%20-%20Km%206%20-%20Quadra%202%20-%20Loja%202%2C%20Sobradinho%2C%20DF%2C%2073150-045%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0012",
-      "name": "Centro",
-      "neighborhood": "Centro",
+      "name": "Centro - Central",
+      "neighborhood": "Centro - Central",
       "city": "Sobradinho",
       "state": "DF",
       "address": "Lote Especial 2 - Quadra 4, CEP 73405-620",
@@ -6558,10 +6585,10 @@
         "+55 (61) 3591-5855"
       ],
       "officialId": 17096,
-      "routeQuery": "Congregação Cristã no Brasil - Centro, Lote Especial 2 - Quadra 4, Sobradinho, DF, 73405-620, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Centro%2C%20Lote%20Especial%202%20-%20Quadra%204%2C%20Sobradinho%2C%20DF%2C%2073405-620%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Centro%2C%20Lote%20Especial%202%20-%20Quadra%204%2C%20Sobradinho%2C%20DF%2C%2073405-620%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Centro - Central, Lote Especial 2 - Quadra 4, Sobradinho, DF, 73405-620, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Centro%20-%20Central%2C%20Lote%20Especial%202%20-%20Quadra%204%2C%20Sobradinho%2C%20DF%2C%2073405-620%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Centro%20-%20Central%2C%20Lote%20Especial%202%20-%20Quadra%204%2C%20Sobradinho%2C%20DF%2C%2073405-620%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "unavailable"
     },
     {
@@ -6610,7 +6637,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Colina Nova Diguinéia I, Conjunto B - Lotes 3 e 5, Sobradinho, DF, 73270-060, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Colina%20Nova%20Diguin%C3%A9ia%20I%2C%20Conjunto%20B%20-%20Lotes%203%20e%205%2C%20Sobradinho%2C%20DF%2C%2073270-060%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Colina%20Nova%20Diguin%C3%A9ia%20I%2C%20Conjunto%20B%20-%20Lotes%203%20e%205%2C%20Sobradinho%2C%20DF%2C%2073270-060%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6664,7 +6691,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Fercal - Engenho Velho, Quadra 13 - Lote 2, Sobradinho, DF, 73150-045, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Fercal%20-%20Engenho%20Velho%2C%20Quadra%2013%20-%20Lote%202%2C%20Sobradinho%2C%20DF%2C%2073150-045%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Fercal%20-%20Engenho%20Velho%2C%20Quadra%2013%20-%20Lote%202%2C%20Sobradinho%2C%20DF%2C%2073150-045%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6713,7 +6740,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Serra Azul, Quadra 9 - Lote 1, Sobradinho, DF, 73083-480, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Serra%20Azul%2C%20Quadra%209%20-%20Lote%201%2C%20Sobradinho%2C%20DF%2C%2073083-480%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Serra%20Azul%2C%20Quadra%209%20-%20Lote%201%2C%20Sobradinho%2C%20DF%2C%2073083-480%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6756,7 +6783,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Condomínio Vale dos Pinheiros, Conjunto F - Quadra 45A - Lote 45, Sobradinho, DF, 73088-350, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Vale%20dos%20Pinheiros%2C%20Conjunto%20F%20-%20Quadra%2045A%20-%20Lote%2045%2C%20Sobradinho%2C%20DF%2C%2073088-350%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Condom%C3%ADnio%20Vale%20dos%20Pinheiros%2C%20Conjunto%20F%20-%20Quadra%2045A%20-%20Lote%2045%2C%20Sobradinho%2C%20DF%2C%2073088-350%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6800,7 +6827,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Fazenda Córrego do Meio, Sobradinho, DF, 73299-899, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Fazenda%20C%C3%B3rrego%20do%20Meio%2C%20Sobradinho%2C%20DF%2C%2073299-899%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Fazenda%20C%C3%B3rrego%20do%20Meio%2C%20Sobradinho%2C%20DF%2C%2073299-899%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6838,7 +6865,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Queima Lençol - Fercal, Rodovia DF-205 - Km 2 - Lote 1209-B, Sobradinho, DF, 73151-010, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Queima%20Len%C3%A7ol%20-%20Fercal%2C%20Rodovia%20DF-205%20-%20Km%202%20-%20Lote%201209-B%2C%20Sobradinho%2C%20DF%2C%2073151-010%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Queima%20Len%C3%A7ol%20-%20Fercal%2C%20Rodovia%20DF-205%20-%20Km%202%20-%20Lote%201209-B%2C%20Sobradinho%2C%20DF%2C%2073151-010%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6876,7 +6903,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Habitacional Buritis, Rua 10 - Lote 164, Sobradinho, DF, 73060-660, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Buritis%2C%20Rua%2010%20-%20Lote%20164%2C%20Sobradinho%2C%20DF%2C%2073060-660%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Habitacional%20Buritis%2C%20Rua%2010%20-%20Lote%20164%2C%20Sobradinho%2C%20DF%2C%2073060-660%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6925,7 +6952,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Sobradinho II, AR 13 - Conjunto 15 - Lote 2, Sobradinho, DF, 73062-315, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Sobradinho%20II%2C%20AR%2013%20-%20Conjunto%2015%20-%20Lote%202%2C%20Sobradinho%2C%20DF%2C%2073062-315%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Sobradinho%20II%2C%20AR%2013%20-%20Conjunto%2015%20-%20Lote%202%2C%20Sobradinho%2C%20DF%2C%2073062-315%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -6975,7 +7002,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila Basevi, AR 4 - Lote 34, Sobradinho, DF, 73100-730, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Basevi%2C%20AR%204%20-%20Lote%2034%2C%20Sobradinho%2C%20DF%2C%2073100-730%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Basevi%2C%20AR%204%20-%20Lote%2034%2C%20Sobradinho%2C%20DF%2C%2073100-730%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -7024,7 +7051,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Vila Rabelo, Quadra 1 - Conjunto 6 - Lote 8, Sobradinho, DF, 73070-055, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Rabelo%2C%20Quadra%201%20-%20Conjunto%206%20-%20Lote%208%2C%20Sobradinho%2C%20DF%2C%2073070-055%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vila%20Rabelo%2C%20Quadra%201%20-%20Conjunto%206%20-%20Lote%208%2C%20Sobradinho%2C%20DF%2C%2073070-055%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -7073,7 +7100,7 @@
       "routeQuery": "Congregação Cristã no Brasil - Cooperville, Rodovia DF-001 - Km 83, Taguatinga, DF, 77320-000, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Cooperville%2C%20Rodovia%20DF-001%20-%20Km%2083%2C%20Taguatinga%2C%20DF%2C%2077320-000%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Cooperville%2C%20Rodovia%20DF-001%20-%20Km%2083%2C%20Taguatinga%2C%20DF%2C%2077320-000%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -7124,13 +7151,13 @@
       "routeQuery": "Congregação Cristã no Brasil - M Norte, QNM 40 - Conjunto C2 - Casa 24, Taguatinga, DF, 72146-033, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20M%20Norte%2C%20QNM%2040%20-%20Conjunto%20C2%20-%20Casa%2024%2C%20Taguatinga%2C%20DF%2C%2072146-033%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20M%20Norte%2C%20QNM%2040%20-%20Conjunto%20C2%20-%20Casa%2024%2C%20Taguatinga%2C%20DF%2C%2072146-033%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0013",
-      "name": "QNC 11 - Área Especial 7",
-      "neighborhood": "QNC 11 - Área Especial 7",
+      "name": "QNC 11 - Área Especial 7 - Central",
+      "neighborhood": "QNC 11 - Área Especial 7 - Central",
       "city": "Taguatinga",
       "state": "DF",
       "address": "Setor C Norte, CEP 72115-700",
@@ -7192,10 +7219,10 @@
         "+55 (61) 3351-3281"
       ],
       "officialId": 17097,
-      "routeQuery": "Congregação Cristã no Brasil - QNC 11 - Área Especial 7, Setor C Norte, Taguatinga, DF, 72115-700, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNC%2011%20-%20%C3%81rea%20Especial%207%2C%20Setor%20C%20Norte%2C%20Taguatinga%2C%20DF%2C%2072115-700%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNC%2011%20-%20%C3%81rea%20Especial%207%2C%20Setor%20C%20Norte%2C%20Taguatinga%2C%20DF%2C%2072115-700%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - QNC 11 - Área Especial 7 - Central, Setor C Norte, Taguatinga, DF, 72115-700, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNC%2011%20-%20%C3%81rea%20Especial%207%20-%20Central%2C%20Setor%20C%20Norte%2C%20Taguatinga%2C%20DF%2C%2072115-700%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20QNC%2011%20-%20%C3%81rea%20Especial%207%20-%20Central%2C%20Setor%20C%20Norte%2C%20Taguatinga%2C%20DF%2C%2072115-700%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
@@ -7255,13 +7282,13 @@
       "routeQuery": "Congregação Cristã no Brasil - Setor Privê, Rua 2 - Módulo 12 - Lote 2, Taguatinga, DF, 72280-458, Brasil",
       "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Priv%C3%AA%2C%20Rua%202%20-%20M%C3%B3dulo%2012%20-%20Lote%202%2C%20Taguatinga%2C%20DF%2C%2072280-458%2C%20Brasil",
       "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Setor%20Priv%C3%AA%2C%20Rua%202%20-%20M%C3%B3dulo%2012%20-%20Lote%202%2C%20Taguatinga%2C%20DF%2C%2072280-458%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     },
     {
       "id": "BR-24-0091",
-      "name": "Vicente Pires",
-      "neighborhood": "Vicente Pires",
+      "name": "Vicente Pires - Central",
+      "neighborhood": "Vicente Pires - Central",
       "city": "Vicente Pires",
       "state": "DF",
       "address": "Rua 12 - Chácara 143 - Lote 01, CEP 72007-515",
@@ -7312,10 +7339,10 @@
       ],
       "phones": [],
       "officialId": 17170,
-      "routeQuery": "Congregação Cristã no Brasil - Vicente Pires, Rua 12 - Chácara 143 - Lote 01, Vicente Pires, DF, 72007-515, Brasil",
-      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vicente%20Pires%2C%20Rua%2012%20-%20Ch%C3%A1cara%20143%20-%20Lote%2001%2C%20Vicente%20Pires%2C%20DF%2C%2072007-515%2C%20Brasil",
-      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vicente%20Pires%2C%20Rua%2012%20-%20Ch%C3%A1cara%20143%20-%20Lote%2001%2C%20Vicente%20Pires%2C%20DF%2C%2072007-515%2C%20Brasil&navigate=yes",
-      "officialVerification": "2026-08-26",
+      "routeQuery": "Congregação Cristã no Brasil - Vicente Pires - Central, Rua 12 - Chácara 143 - Lote 01, Vicente Pires, DF, 72007-515, Brasil",
+      "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vicente%20Pires%20-%20Central%2C%20Rua%2012%20-%20Ch%C3%A1cara%20143%20-%20Lote%2001%2C%20Vicente%20Pires%2C%20DF%2C%2072007-515%2C%20Brasil",
+      "wazeUrl": "https://waze.com/ul?q=Congrega%C3%A7%C3%A3o%20Crist%C3%A3%20no%20Brasil%20-%20Vicente%20Pires%20-%20Central%2C%20Rua%2012%20-%20Ch%C3%A1cara%20143%20-%20Lote%2001%2C%20Vicente%20Pires%2C%20DF%2C%2072007-515%2C%20Brasil&navigate=yes",
+      "officialVerification": "2026-08-27",
       "coordinateStatus": "source-reported"
     }
   ]

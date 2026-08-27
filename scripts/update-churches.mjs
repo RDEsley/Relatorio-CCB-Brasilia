@@ -71,6 +71,8 @@ function parseDetail(html) {
   const cityParts = valueAfterLabel(locationCard, "Cidade").split(",").map((part) => part.trim()).filter(Boolean);
   return {
     name: plainText(/<label[^>]*>[\s\S]*?<strong>([\s\S]*?)<\/strong>/.exec(headerCard)?.[1] ?? ""),
+    isCentral: [...headerCard.matchAll(/<small[^>]*>[\s\S]*?<strong>([\s\S]*?)<\/strong>[\s\S]*?<\/small>/g)]
+      .map((match) => plainText(match[1])).includes("CENTRAL"),
     code: [...headerCard.matchAll(/<small[^>]*>[\s\S]*?<strong>([\s\S]*?)<\/strong>[\s\S]*?<\/small>/g)]
       .map((match) => plainText(match[1])).find((value) => /^BR-\d{2}-\d{4}$/.test(value)) ?? "",
     street: valueAfterLabel(locationCard, "Logradouro"),
@@ -140,22 +142,72 @@ async function createOfficialClient() {
   };
 }
 
-async function loadOfficialChurch(church, post) {
-  const searchHtml = await post("/service/localidade-relatorio", { search: church.id, pagina: "1" });
-  const officialRow = [...searchHtml.matchAll(/<tr>([\s\S]*?)<\/tr>/g)]
-    .map((match) => match[1])
-    .find((row) => plainText(row).includes(church.id));
-  const officialId = /data-id="(\d+)"/.exec(officialRow ?? "")?.[1];
-  if (!officialId) throw new Error(`${church.id}: casa não encontrada no relatório oficial.`);
+function parseListingRows(html) {
+  return [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].flatMap((match) => {
+    const row = match[1];
+    const officialId = /data-id="(\d+)"/.exec(row)?.[1];
+    const code = /BR-\d{2}-\d{4}/.exec(plainText(row))?.[0];
+    return officialId && code ? [{ id: code, officialId: Number(officialId) }] : [];
+  });
+}
 
+async function listOfficialScope(post) {
+  const countries = JSON.parse(await post("/service/pais-relatorio", {})).list;
+  const country = countries.find((item) => item.Text === "Brasil");
+  if (!country) throw new Error("Brasil não encontrado no relatório oficial.");
+
+  const states = JSON.parse(await post("/service/estado-relatorio", { codigoPais: country.Value })).list;
+  const df = states.find((item) => item.Text === "DISTRITO FEDERAL");
+  const go = states.find((item) => item.Text === "GOIÁS");
+  if (!df || !go) throw new Error("DF ou Goiás não encontrado no relatório oficial.");
+
+  const dfCities = JSON.parse(await post("/service/cidade-relatorio", { codigoEstado: df.Value })).list;
+  const goCities = JSON.parse(await post("/service/cidade-relatorio", { codigoEstado: go.Value })).list;
+  const aguasLindas = goCities.find((item) => item.Text === "Águas Lindas de Goiás");
+  if (!aguasLindas) throw new Error("Águas Lindas de Goiás não encontrada no relatório oficial.");
+
+  const targets = [
+    ...dfCities.map((city) => ({ ...city, stateCode: df.Value })),
+    { ...aguasLindas, stateCode: go.Value },
+  ];
+  const records = new Map();
+
+  for (const city of targets) {
+    const commonBody = {
+      codigoPais: country.Value,
+      codigoEstado: city.stateCode,
+      codigoCidade: city.Value,
+      tipoCulto: "Culto Oficial,Reunião de Jovens e Menores",
+      diaSemana: "1,2,3,4,5,6,7",
+      periodo: "Manhã,Tarde,Noite",
+    };
+    const cityRecords = [];
+    for (let page = 1; page <= 100; page += 1) {
+      const html = await post("/service/servico-relatorio", { ...commonBody, pagina: String(page) });
+      const pageRecords = parseListingRows(html);
+      cityRecords.push(...pageRecords);
+      const hasNextPage = new RegExp(`<button[^>]*value="${page + 1}"[^>]*>`, "i").test(html);
+      if (!pageRecords.length || !hasNextPage) break;
+    }
+    cityRecords.forEach((record) => records.set(record.id, record));
+    process.stdout.write(`${city.Text}: ${cityRecords.length} casas encontradas.\n`);
+  }
+
+  return [...records.values()];
+}
+
+async function loadOfficialChurch(record, existingChurch, post) {
+  const church = existingChurch ?? { id: record.id, latitude: null, longitude: null };
+  const officialId = record.officialId;
   const detail = parseDetail(await post("/service/localidade-detalhe", { codigo: officialId }));
   if (detail.code !== church.id || !detail.name || !detail.city || !detail.services.length) {
     throw new Error(`${church.id}: detalhes oficiais incompletos ou divergentes: ${JSON.stringify(detail)}`);
   }
 
+  const displayName = `${detail.name}${detail.isCentral ? " - Central" : ""}`;
   const address = `${detail.street || "Endereço não informado"}${detail.postalCode ? `, CEP ${detail.postalCode}` : ""}`;
   const routeQuery = [
-    `Congregação Cristã no Brasil - ${detail.name}`,
+    `Congregação Cristã no Brasil - ${displayName}`,
     detail.street,
     detail.city,
     detail.state,
@@ -168,8 +220,8 @@ async function loadOfficialChurch(church, post) {
   const coordinatesAvailable = coordinatesInRegion && !church.coordinatePrecision;
   const updated = {
     ...church,
-    name: detail.name,
-    neighborhood: detail.name,
+    name: displayName,
+    neighborhood: displayName,
     city: detail.city,
     state: detail.state,
     address,
@@ -193,14 +245,19 @@ async function loadOfficialChurch(church, post) {
 
 const current = JSON.parse(await readFile(DATA_URL, "utf8"));
 const post = await createOfficialClient();
+const officialRecords = await listOfficialScope(post);
+const existingById = new Map(current.churches.map((church) => [church.id, church]));
 const churches = [];
-for (let index = 0; index < current.churches.length; index += 4) {
-  const batch = current.churches.slice(index, index + 4);
-  churches.push(...await Promise.all(batch.map((church) => loadOfficialChurch(church, post))));
-  process.stdout.write(`Verificadas ${churches.length}/${current.churches.length} casas no relatório oficial.\n`);
+for (let index = 0; index < officialRecords.length; index += 4) {
+  const batch = officialRecords.slice(index, index + 4);
+  churches.push(...await Promise.all(batch.map((record) => loadOfficialChurch(record, existingById.get(record.id), post))));
+  process.stdout.write(`Verificadas ${churches.length}/${officialRecords.length} casas no relatório oficial.\n`);
   await new Promise((resolve) => setTimeout(resolve, 250));
 }
 
 churches.sort((a, b) => a.city.localeCompare(b.city, "pt-BR") || a.name.localeCompare(b.name, "pt-BR"));
-await writeFile(DATA_URL, `${JSON.stringify({ updatedAt: new Date().toISOString().slice(0, 10), churches }, null, 2)}\n`);
+const cityCounts = Object.fromEntries([...new Set(churches.map((church) => church.city))]
+  .sort((a, b) => a.localeCompare(b, "pt-BR"))
+  .map((city) => [city, churches.filter((church) => church.city === city).length]));
+await writeFile(DATA_URL, `${JSON.stringify({ updatedAt: new Date().toISOString().slice(0, 10), officialTotal: churches.length, cityCounts, churches }, null, 2)}\n`);
 console.log(`Concluído: ${churches.length} casas confirmadas no relatório oficial.`);

@@ -38,7 +38,10 @@ for (const church of data.churches) {
   } catch { fail(church.id, "link do Waze inválido"); }
 }
 
-if (data.churches.length !== 137) fail("BASE", `quantidade inesperada: ${data.churches.length}`);
+if (data.officialTotal !== data.churches.length || data.churches.length < 137) fail("BASE", `quantidade oficial inconsistente: ${data.churches.length}`);
+if (Object.keys(data.cityCounts ?? {}).length !== 24) fail("BASE", "cobertura de cidades incompleta");
+if (data.cityCounts?.["Brazlândia"] !== 7) fail("Brazlândia", `quantidade divergente: ${data.cityCounts?.["Brazlândia"] ?? 0}`);
+if (data.cityCounts?.["Águas Lindas de Goiás"] !== 16) fail("Águas Lindas de Goiás", `quantidade divergente: ${data.cityCounts?.["Águas Lindas de Goiás"] ?? 0}`);
 if (errors.length) throw new Error(`Validação reprovada:\n${errors.join("\n")}`);
 console.log(`${data.churches.length} casas validadas: códigos, escopo, fonte oficial, agenda, coordenadas e rotas.`);
 
