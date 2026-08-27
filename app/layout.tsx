@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://relatorio-ccb-brasilia-xi.vercel.app"),
+  metadataBase: new URL("https://relatorio-ccb-brasilia.vercel.app"),
   title: "Casas de Oração — Brasília & Águas Lindas",
   description: "Encontre casas de oração por dia, período e distância, com rotas no Waze e Google Maps.",
   manifest: "/site.webmanifest",
